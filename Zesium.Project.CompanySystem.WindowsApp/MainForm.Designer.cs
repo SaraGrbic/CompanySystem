@@ -36,8 +36,10 @@
             this.currentUserDepartment_lbl = new System.Windows.Forms.Label();
             this.listOfEmployees_btn = new System.Windows.Forms.Button();
             this.listOfDepartments_btn = new System.Windows.Forms.Button();
-            this.btnProjects = new System.Windows.Forms.Button();
+            this.btnManagerProjects = new System.Windows.Forms.Button();
             this.btnTasks = new System.Windows.Forms.Button();
+            this.btnEmployeeProjects = new System.Windows.Forms.Button();
+            this.btnManagers = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // signOut_btn
@@ -97,9 +99,9 @@
             // 
             // listOfEmployees_btn
             // 
-            this.listOfEmployees_btn.Location = new System.Drawing.Point(16, 149);
+            this.listOfEmployees_btn.Location = new System.Drawing.Point(183, 89);
             this.listOfEmployees_btn.Name = "listOfEmployees_btn";
-            this.listOfEmployees_btn.Size = new System.Drawing.Size(125, 46);
+            this.listOfEmployees_btn.Size = new System.Drawing.Size(122, 46);
             this.listOfEmployees_btn.TabIndex = 10;
             this.listOfEmployees_btn.Text = "List of all employees";
             this.listOfEmployees_btn.UseVisualStyleBackColor = true;
@@ -117,20 +119,20 @@
             this.listOfDepartments_btn.Visible = false;
             this.listOfDepartments_btn.Click += new System.EventHandler(this.listOfDepartments_btn_Click_1);
             // 
-            // btnProjects
+            // btnManagerProjects
             // 
-            this.btnProjects.Location = new System.Drawing.Point(183, 89);
-            this.btnProjects.Name = "btnProjects";
-            this.btnProjects.Size = new System.Drawing.Size(122, 46);
-            this.btnProjects.TabIndex = 12;
-            this.btnProjects.Text = "List of all projects";
-            this.btnProjects.UseVisualStyleBackColor = true;
-            this.btnProjects.Visible = false;
-            this.btnProjects.Click += new System.EventHandler(this.btnProjects_Click);
+            this.btnManagerProjects.Location = new System.Drawing.Point(16, 89);
+            this.btnManagerProjects.Name = "btnManagerProjects";
+            this.btnManagerProjects.Size = new System.Drawing.Size(122, 46);
+            this.btnManagerProjects.TabIndex = 12;
+            this.btnManagerProjects.Text = "List of all projects";
+            this.btnManagerProjects.UseVisualStyleBackColor = true;
+            this.btnManagerProjects.Visible = false;
+            this.btnManagerProjects.Click += new System.EventHandler(this.btnProjects_Click);
             // 
             // btnTasks
             // 
-            this.btnTasks.Location = new System.Drawing.Point(183, 149);
+            this.btnTasks.Location = new System.Drawing.Point(183, 89);
             this.btnTasks.Name = "btnTasks";
             this.btnTasks.Size = new System.Drawing.Size(122, 46);
             this.btnTasks.TabIndex = 13;
@@ -139,13 +141,37 @@
             this.btnTasks.Visible = false;
             this.btnTasks.Click += new System.EventHandler(this.btnTasks_Click);
             // 
+            // btnEmployeeProjects
+            // 
+            this.btnEmployeeProjects.Location = new System.Drawing.Point(16, 89);
+            this.btnEmployeeProjects.Name = "btnEmployeeProjects";
+            this.btnEmployeeProjects.Size = new System.Drawing.Size(119, 46);
+            this.btnEmployeeProjects.TabIndex = 14;
+            this.btnEmployeeProjects.Text = "List of all projects";
+            this.btnEmployeeProjects.UseVisualStyleBackColor = true;
+            this.btnEmployeeProjects.Visible = false;
+            this.btnEmployeeProjects.Click += new System.EventHandler(this.btnEmployeeProjects_Click);
+            // 
+            // btnManagers
+            // 
+            this.btnManagers.Location = new System.Drawing.Point(186, 89);
+            this.btnManagers.Name = "btnManagers";
+            this.btnManagers.Size = new System.Drawing.Size(119, 46);
+            this.btnManagers.TabIndex = 15;
+            this.btnManagers.Text = "List of all managers";
+            this.btnManagers.UseVisualStyleBackColor = true;
+            this.btnManagers.Visible = false;
+            this.btnManagers.Click += new System.EventHandler(this.btnManagers_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(757, 357);
+            this.Controls.Add(this.btnManagers);
+            this.Controls.Add(this.btnEmployeeProjects);
             this.Controls.Add(this.btnTasks);
-            this.Controls.Add(this.btnProjects);
+            this.Controls.Add(this.btnManagerProjects);
             this.Controls.Add(this.listOfDepartments_btn);
             this.Controls.Add(this.listOfEmployees_btn);
             this.Controls.Add(this.currentUserDepartment_lbl);
@@ -172,7 +198,9 @@
         private System.Windows.Forms.Label currentUserDepartment_lbl;
         private System.Windows.Forms.Button listOfEmployees_btn;
         private System.Windows.Forms.Button listOfDepartments_btn;
-        private System.Windows.Forms.Button btnProjects;
+        private System.Windows.Forms.Button btnManagerProjects;
         private System.Windows.Forms.Button btnTasks;
+        private System.Windows.Forms.Button btnEmployeeProjects;
+        private System.Windows.Forms.Button btnManagers;
     }
 }

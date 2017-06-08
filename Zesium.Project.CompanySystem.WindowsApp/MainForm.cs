@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.WindowsApp.AdminForms;
+using Zesium.Project.CompanySystem.WindowsApp.EmployeeForms;
 using Zesium.Project.CompanySystem.WindowsApp.ManagerForms;
 
 namespace Zesium.Project.CompanySystem.WindowsApp
@@ -56,6 +57,22 @@ namespace Zesium.Project.CompanySystem.WindowsApp
             allTaskForm.ShowDialog();
             Close();
         }
+
+        private void btnEmployeeProjects_Click(object sender, EventArgs e)
+        {
+            Hide();
+            var projectsForm = new EmployeeProjectsForm();
+            projectsForm.ShowDialog();
+            Close();
+        }
+
+        private void btnManagers_Click(object sender, EventArgs e)
+        {
+            Hide();
+            var managerListForm = new ManagerList();
+            managerListForm.ShowDialog();
+            Close();
+        }
         #endregion
 
         #region Methods
@@ -71,9 +88,11 @@ namespace Zesium.Project.CompanySystem.WindowsApp
             switch (Company.Instance.CurrentUser.UserType)
             {
                 case UserType.Employee:
-                break;
+                    btnEmployeeProjects.Visible = true;
+                    btnManagers.Visible = true;
+                    break;
                 case UserType.Manager:
-                    btnProjects.Visible = true;
+                    btnManagerProjects.Visible = true;
                     btnTasks.Visible = true;
                 break;
                 case UserType.Administrator :

@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.WindowsApp.AdminForms;
 using Zesium.Project.CompanySystem.WindowsApp.Model;
 using ProjectClass = Zesium.Project.CompanySystem.Models.Project;
 
-namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
+namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
 {
-    class ProjectsForm : GenericForm<ProjectClass>
+    public class EmployeeProjectsForm : GenericForm<ProjectClass>
     {
         private static List<Column> columns = new List<Column>
         {
@@ -23,15 +26,12 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         };
 
         #region Constructors
-        public ProjectsForm() : base(columns, true, true, true, false, true)
+        public EmployeeProjectsForm(): base(columns, false, false, false, false, true)
         {
             var values = new List<ProjectClass>();
-            foreach (var managerProject in Company.Instance.Projects.Values)
+            foreach (var empolyeeProject in ((Employee)Company.Instance.CurrentUser).EmployeeProjects.Values)
             {
-                if (Company.Instance.CurrentUser == managerProject.ProjectManager)
-                {
-                    values.Add(managerProject);
-                }
+                values.Add(empolyeeProject);
             }
 
             FillTable(values);
@@ -40,31 +40,22 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         }
         #endregion
 
+        #region Properties
+        #endregion
+
         #region Actions
-        public override void HandleAddEvent()
-        {
-            Hide();
-            var createProject = new CreateProjectForm();
-            createProject.ShowDialog();
-            Close();
-        }
-
-        public override void HandleRemoveEvent(object selectedItem) { }//TODO implement
-
-        public override void HandleEditEvent(object selectedItem) { }//TODO implement
-
-        public override void HandlePromoteEvent(object selectedItem) { }
-
-        public override void HandleTaskEvent(object selectedItem)
-        {
-            Hide();
-            var taskForm = new TaskForm((ProjectClass)selectedItem);
-            taskForm.ShowDialog();
-            Close();
-        }
         #endregion
 
         #region Methods
+        public override void HandleAddEvent() { }
+
+        public override void HandleEditEvent(object selectedItem) { }
+
+        public override void HandlePromoteEvent(object selectedItem) { }
+
+        public override void HandleRemoveEvent(object selectedItem) { }
+
+        public override void HandleTaskEvent(object selectedItem) { }
         #endregion
     }
 }
