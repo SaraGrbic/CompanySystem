@@ -9,6 +9,9 @@ namespace Zesium.Project.CompanySystem.Models
         private string _taskName;
         private TaskState _taskState;
         private DateTime _taskStartTime;
+        private DateTime _taskEndTime;
+        private int _estimatedWorkingTime;
+        private int _remainingWorkingTime;
         private string _taskDescription;
         private string _taskComment;
         private int _taskId;
@@ -17,12 +20,15 @@ namespace Zesium.Project.CompanySystem.Models
         #endregion
 
         #region Constructors
-        public Task(int taskId, string taskName, DateTime taskStartTime, string taskDescription, Employee taskEmployee, Project tasksProject)
+        public Task(int taskId, string taskName, DateTime taskStartTime,  DateTime taskEndTime,  string taskDescription, Employee taskEmployee, Project tasksProject)
         {
             TaskId = taskId;
             TaskName = taskName;
             TaskState = TaskState.To_Do;
             TaskStartTime = taskStartTime;
+            TaskEndTime = taskEndTime;
+            EstimatedWorkingTime = 0;
+            RemainingWorkingTime = 0;
             TaskDescription = taskDescription;
             TaskComment = string.Empty;
             TasksEmployee = taskEmployee;
@@ -49,6 +55,42 @@ namespace Zesium.Project.CompanySystem.Models
             set { _taskStartTime = value; }
         }
 
+        public DateTime TaskEndTime
+        {
+            get
+            {
+                return _taskEndTime;
+            }
+            set
+            {
+                _taskEndTime = value;
+            }
+        }
+
+        public int EstimatedWorkingTime
+        {
+            get
+            {
+                return _estimatedWorkingTime;
+            }
+            set
+            {
+                _estimatedWorkingTime = value;
+            }
+        }
+
+        public int RemainingWorkingTime
+        {
+            get
+            {
+                return _remainingWorkingTime;
+            }
+            set
+            {
+                _remainingWorkingTime = value;
+            }
+        }
+
         public string TaskDescription
         {
             get { return _taskDescription; }
@@ -72,7 +114,6 @@ namespace Zesium.Project.CompanySystem.Models
             get { return _tasksEmployee; }
             set { _tasksEmployee = value; }
         }
-
 
         public Project TasksProject
         {
