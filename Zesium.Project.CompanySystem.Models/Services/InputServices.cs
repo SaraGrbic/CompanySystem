@@ -63,7 +63,7 @@ namespace Zesium.Project.CompanySystem.Models.Services
             Company.Instance.Departments.Add(id, newDepartment);
         }
 
-        public static void CreateTask(string taskName, DateTime taskStartTime, string taskDescription, Employee taskEmployee, Project selectedProject)
+        public static void CreateTask(string taskName, DateTime taskStartTime, DateTime taskEndTime, string taskDescription, Employee taskEmployee, Project selectedProject)
         {
             var keys = new List<int>();
             foreach (var item in selectedProject.ProjectTasks.Keys)
@@ -73,8 +73,9 @@ namespace Zesium.Project.CompanySystem.Models.Services
 
             var id = GenerateNewKey(keys);
 
-            var newTask = new Task(id, taskName, taskStartTime, taskDescription, taskEmployee, selectedProject);
+            var newTask = new Task(id, taskName, taskStartTime, taskEndTime, taskDescription, taskEmployee, selectedProject);
             selectedProject.ProjectTasks.Add(id, newTask);
+            taskEmployee.EmployeeProjects.Add(selectedProject.ProjectId, selectedProject);
         }
 
         private static int GenerateNewKey(List<int> keys)
