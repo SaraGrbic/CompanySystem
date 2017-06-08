@@ -33,11 +33,10 @@
             this.lblStartTime = new System.Windows.Forms.Label();
             this.lblDescription = new System.Windows.Forms.Label();
             this.txtbxName = new System.Windows.Forms.TextBox();
-            this.dateTimePckrStart = new System.Windows.Forms.DateTimePicker();
+            this.pckrStartTime = new System.Windows.Forms.DateTimePicker();
             this.rchTxtBxDescription = new System.Windows.Forms.RichTextBox();
             this.lblSelect = new System.Windows.Forms.Label();
             this.dgvEmployees = new System.Windows.Forms.DataGridView();
-            this.userBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,8 +46,11 @@
             this.userTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.usernameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.passwordDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.userBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.btnCreate = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.lblEndTime = new System.Windows.Forms.Label();
+            this.pckrEndTime = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -56,7 +58,7 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(71, 32);
+            this.lblName.Location = new System.Drawing.Point(29, 29);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(37, 13);
             this.lblName.TabIndex = 0;
@@ -65,7 +67,7 @@
             // lblStartTime
             // 
             this.lblStartTime.AutoSize = true;
-            this.lblStartTime.Location = new System.Drawing.Point(71, 97);
+            this.lblStartTime.Location = new System.Drawing.Point(29, 77);
             this.lblStartTime.Name = "lblStartTime";
             this.lblStartTime.Size = new System.Drawing.Size(82, 13);
             this.lblStartTime.TabIndex = 1;
@@ -74,7 +76,7 @@
             // lblDescription
             // 
             this.lblDescription.AutoSize = true;
-            this.lblDescription.Location = new System.Drawing.Point(71, 160);
+            this.lblDescription.Location = new System.Drawing.Point(29, 160);
             this.lblDescription.Name = "lblDescription";
             this.lblDescription.Size = new System.Drawing.Size(31, 13);
             this.lblDescription.TabIndex = 2;
@@ -87,12 +89,12 @@
             this.txtbxName.Size = new System.Drawing.Size(100, 20);
             this.txtbxName.TabIndex = 3;
             // 
-            // dateTimePckrStart
+            // pckrStartTime
             // 
-            this.dateTimePckrStart.Location = new System.Drawing.Point(181, 97);
-            this.dateTimePckrStart.Name = "dateTimePckrStart";
-            this.dateTimePckrStart.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePckrStart.TabIndex = 5;
+            this.pckrStartTime.Location = new System.Drawing.Point(181, 70);
+            this.pckrStartTime.Name = "pckrStartTime";
+            this.pckrStartTime.Size = new System.Drawing.Size(200, 20);
+            this.pckrStartTime.TabIndex = 5;
             // 
             // rchTxtBxDescription
             // 
@@ -105,7 +107,7 @@
             // lblSelect
             // 
             this.lblSelect.AutoSize = true;
-            this.lblSelect.Location = new System.Drawing.Point(71, 273);
+            this.lblSelect.Location = new System.Drawing.Point(29, 273);
             this.lblSelect.Name = "lblSelect";
             this.lblSelect.Size = new System.Drawing.Size(217, 13);
             this.lblSelect.TabIndex = 7;
@@ -129,16 +131,12 @@
             this.usernameDataGridViewTextBoxColumn,
             this.passwordDataGridViewTextBoxColumn});
             this.dgvEmployees.DataSource = this.userBindingSource;
-            this.dgvEmployees.Location = new System.Drawing.Point(74, 289);
+            this.dgvEmployees.Location = new System.Drawing.Point(32, 289);
             this.dgvEmployees.Name = "dgvEmployees";
             this.dgvEmployees.ReadOnly = true;
             this.dgvEmployees.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvEmployees.Size = new System.Drawing.Size(550, 201);
             this.dgvEmployees.TabIndex = 8;
-            // 
-            // userBindingSource
-            // 
-            this.userBindingSource.DataSource = typeof(Zesium.Project.CompanySystem.Models.User);
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -205,6 +203,10 @@
             this.passwordDataGridViewTextBoxColumn.ReadOnly = true;
             this.passwordDataGridViewTextBoxColumn.Visible = false;
             // 
+            // userBindingSource
+            // 
+            this.userBindingSource.DataSource = typeof(Zesium.Project.CompanySystem.Models.User);
+            // 
             // btnCreate
             // 
             this.btnCreate.Location = new System.Drawing.Point(74, 523);
@@ -225,17 +227,35 @@
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
+            // lblEndTime
+            // 
+            this.lblEndTime.AutoSize = true;
+            this.lblEndTime.Location = new System.Drawing.Point(29, 118);
+            this.lblEndTime.Name = "lblEndTime";
+            this.lblEndTime.Size = new System.Drawing.Size(146, 13);
+            this.lblEndTime.TabIndex = 11;
+            this.lblEndTime.Text = "Predviđeno vreme završetka:";
+            // 
+            // pckrEndTime
+            // 
+            this.pckrEndTime.Location = new System.Drawing.Point(181, 111);
+            this.pckrEndTime.Name = "pckrEndTime";
+            this.pckrEndTime.Size = new System.Drawing.Size(200, 20);
+            this.pckrEndTime.TabIndex = 12;
+            // 
             // CreateTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(691, 568);
+            this.Controls.Add(this.pckrEndTime);
+            this.Controls.Add(this.lblEndTime);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnCreate);
             this.Controls.Add(this.dgvEmployees);
             this.Controls.Add(this.lblSelect);
             this.Controls.Add(this.rchTxtBxDescription);
-            this.Controls.Add(this.dateTimePckrStart);
+            this.Controls.Add(this.pckrStartTime);
             this.Controls.Add(this.txtbxName);
             this.Controls.Add(this.lblDescription);
             this.Controls.Add(this.lblStartTime);
@@ -256,7 +276,7 @@
         private System.Windows.Forms.Label lblStartTime;
         private System.Windows.Forms.Label lblDescription;
         private System.Windows.Forms.TextBox txtbxName;
-        private System.Windows.Forms.DateTimePicker dateTimePckrStart;
+        private System.Windows.Forms.DateTimePicker pckrStartTime;
         private System.Windows.Forms.RichTextBox rchTxtBxDescription;
         private System.Windows.Forms.Label lblSelect;
         private System.Windows.Forms.DataGridView dgvEmployees;
@@ -272,5 +292,7 @@
         private System.Windows.Forms.BindingSource userBindingSource;
         private System.Windows.Forms.Button btnCreate;
         private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Label lblEndTime;
+        private System.Windows.Forms.DateTimePicker pckrEndTime;
     }
 }

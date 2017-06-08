@@ -36,7 +36,8 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
-            InputServices.CreateTask(txtbxName.Text, dateTimePckrStart.Value, rchTxtBxDescription.Text, (Employee)dgvEmployees.CurrentRow.DataBoundItem, SelectedProject);
+            InputServices.CreateTask(txtbxName.Text, pckrStartTime.Value, pckrEndTime.Value, rchTxtBxDescription.Text, (Employee)dgvEmployees.CurrentRow.DataBoundItem, SelectedProject);
+            SelectedProject.ProjectState = ProjectState.InProgres;
             CloseDialog();
         }
         #endregion
