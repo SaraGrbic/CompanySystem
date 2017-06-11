@@ -8,11 +8,11 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
     public partial class EditEmployeeForm : Form
     {
         #region Constructors
-        public EditEmployeeForm()
-        {
-            InitializeComponent();
-            SetDepartments();
-        }
+        //public EditEmployeeForm()
+        //{
+        //    InitializeComponent();
+        //    SetDepartments();
+        //}
 
         public EditEmployeeForm(User user)
         {

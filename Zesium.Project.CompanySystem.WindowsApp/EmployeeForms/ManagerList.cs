@@ -28,7 +28,10 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
             var values = new List<User>();
             foreach (var currentProject in ((Employee)Company.Instance.CurrentUser).EmployeeProjects.Values)
             { 
-                values.Add(currentProject.ProjectManager);
+                if (!values.Contains(currentProject.ProjectManager))
+                {
+                    values.Add(currentProject.ProjectManager);
+                }
             }
 
             FillTable(values);

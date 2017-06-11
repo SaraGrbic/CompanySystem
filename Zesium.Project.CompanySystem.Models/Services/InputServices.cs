@@ -75,7 +75,11 @@ namespace Zesium.Project.CompanySystem.Models.Services
 
             var newTask = new Task(id, taskName, taskStartTime, taskEndTime, taskDescription, taskEmployee, selectedProject);
             selectedProject.ProjectTasks.Add(id, newTask);
-            taskEmployee.EmployeeProjects.Add(selectedProject.ProjectId, selectedProject);
+
+            if (!taskEmployee.EmployeeProjects.ContainsKey(selectedProject.ProjectId))
+            {
+                taskEmployee.EmployeeProjects.Add(selectedProject.ProjectId, selectedProject);
+            }
         }
 
         private static int GenerateNewKey(List<int> keys)

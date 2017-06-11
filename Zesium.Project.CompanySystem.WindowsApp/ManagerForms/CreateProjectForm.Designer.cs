@@ -50,7 +50,7 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(82, 43);
+            this.lblName.Location = new System.Drawing.Point(75, 24);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(37, 13);
             this.lblName.TabIndex = 0;
@@ -59,7 +59,7 @@
             // lblStartTime
             // 
             this.lblStartTime.AutoSize = true;
-            this.lblStartTime.Location = new System.Drawing.Point(82, 83);
+            this.lblStartTime.Location = new System.Drawing.Point(75, 64);
             this.lblStartTime.Name = "lblStartTime";
             this.lblStartTime.Size = new System.Drawing.Size(82, 13);
             this.lblStartTime.TabIndex = 1;
@@ -68,7 +68,7 @@
             // lblEndTime
             // 
             this.lblEndTime.AutoSize = true;
-            this.lblEndTime.Location = new System.Drawing.Point(81, 120);
+            this.lblEndTime.Location = new System.Drawing.Point(74, 101);
             this.lblEndTime.Name = "lblEndTime";
             this.lblEndTime.Size = new System.Drawing.Size(86, 13);
             this.lblEndTime.TabIndex = 2;
@@ -77,7 +77,7 @@
             // lblDescription
             // 
             this.lblDescription.AutoSize = true;
-            this.lblDescription.Location = new System.Drawing.Point(82, 291);
+            this.lblDescription.Location = new System.Drawing.Point(75, 272);
             this.lblDescription.Name = "lblDescription";
             this.lblDescription.Size = new System.Drawing.Size(31, 13);
             this.lblDescription.TabIndex = 3;
@@ -86,7 +86,7 @@
             // lblState
             // 
             this.lblState.AutoSize = true;
-            this.lblState.Location = new System.Drawing.Point(82, 167);
+            this.lblState.Location = new System.Drawing.Point(75, 148);
             this.lblState.Name = "lblState";
             this.lblState.Size = new System.Drawing.Size(40, 13);
             this.lblState.TabIndex = 4;
@@ -95,7 +95,7 @@
             // lblNew
             // 
             this.lblNew.AutoSize = true;
-            this.lblNew.Location = new System.Drawing.Point(182, 167);
+            this.lblNew.Location = new System.Drawing.Point(175, 148);
             this.lblNew.Name = "lblNew";
             this.lblNew.Size = new System.Drawing.Size(29, 13);
             this.lblNew.TabIndex = 5;
@@ -104,7 +104,7 @@
             // lblCost
             // 
             this.lblCost.AutoSize = true;
-            this.lblCost.Location = new System.Drawing.Point(82, 204);
+            this.lblCost.Location = new System.Drawing.Point(75, 185);
             this.lblCost.Name = "lblCost";
             this.lblCost.Size = new System.Drawing.Size(35, 13);
             this.lblCost.TabIndex = 6;
@@ -113,7 +113,7 @@
             // lblOwner
             // 
             this.lblOwner.AutoSize = true;
-            this.lblOwner.Location = new System.Drawing.Point(82, 247);
+            this.lblOwner.Location = new System.Drawing.Point(75, 228);
             this.lblOwner.Name = "lblOwner";
             this.lblOwner.Size = new System.Drawing.Size(85, 13);
             this.lblOwner.TabIndex = 7;
@@ -122,7 +122,7 @@
             // lblOwnerName
             // 
             this.lblOwnerName.AutoSize = true;
-            this.lblOwnerName.Location = new System.Drawing.Point(195, 247);
+            this.lblOwnerName.Location = new System.Drawing.Point(188, 228);
             this.lblOwnerName.Name = "lblOwnerName";
             this.lblOwnerName.Size = new System.Drawing.Size(52, 13);
             this.lblOwnerName.TabIndex = 8;
@@ -131,7 +131,7 @@
             // lblOwnerLastname
             // 
             this.lblOwnerLastname.AutoSize = true;
-            this.lblOwnerLastname.Location = new System.Drawing.Point(313, 247);
+            this.lblOwnerLastname.Location = new System.Drawing.Point(306, 228);
             this.lblOwnerLastname.Name = "lblOwnerLastname";
             this.lblOwnerLastname.Size = new System.Drawing.Size(72, 13);
             this.lblOwnerLastname.TabIndex = 9;
@@ -139,7 +139,7 @@
             // 
             // rtxtbxDescription
             // 
-            this.rtxtbxDescription.Location = new System.Drawing.Point(179, 288);
+            this.rtxtbxDescription.Location = new System.Drawing.Point(172, 269);
             this.rtxtbxDescription.Name = "rtxtbxDescription";
             this.rtxtbxDescription.Size = new System.Drawing.Size(206, 96);
             this.rtxtbxDescription.TabIndex = 10;
@@ -147,35 +147,35 @@
             // 
             // txtbxCost
             // 
-            this.txtbxCost.Location = new System.Drawing.Point(185, 201);
+            this.txtbxCost.Location = new System.Drawing.Point(178, 182);
             this.txtbxCost.Name = "txtbxCost";
             this.txtbxCost.Size = new System.Drawing.Size(100, 20);
             this.txtbxCost.TabIndex = 11;
             // 
             // txtbxName
             // 
-            this.txtbxName.Location = new System.Drawing.Point(185, 40);
+            this.txtbxName.Location = new System.Drawing.Point(178, 21);
             this.txtbxName.Name = "txtbxName";
             this.txtbxName.Size = new System.Drawing.Size(100, 20);
             this.txtbxName.TabIndex = 12;
             // 
             // pckrStart
             // 
-            this.pckrStart.Location = new System.Drawing.Point(185, 83);
+            this.pckrStart.Location = new System.Drawing.Point(178, 64);
             this.pckrStart.Name = "pckrStart";
             this.pckrStart.Size = new System.Drawing.Size(200, 20);
             this.pckrStart.TabIndex = 13;
             // 
             // pckrEnd
             // 
-            this.pckrEnd.Location = new System.Drawing.Point(185, 120);
+            this.pckrEnd.Location = new System.Drawing.Point(178, 101);
             this.pckrEnd.Name = "pckrEnd";
             this.pckrEnd.Size = new System.Drawing.Size(200, 20);
             this.pckrEnd.TabIndex = 14;
             // 
             // btnCreate
             // 
-            this.btnCreate.Location = new System.Drawing.Point(53, 414);
+            this.btnCreate.Location = new System.Drawing.Point(46, 395);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(75, 23);
             this.btnCreate.TabIndex = 15;
@@ -185,7 +185,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(422, 414);
+            this.btnCancel.Location = new System.Drawing.Point(415, 395);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 16;
@@ -197,7 +197,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(548, 456);
+            this.ClientSize = new System.Drawing.Size(511, 426);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnCreate);
             this.Controls.Add(this.pckrEnd);

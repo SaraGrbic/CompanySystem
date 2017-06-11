@@ -8,9 +8,9 @@ using Zesium.Project.CompanySystem.WindowsApp.Model;
 using ProjectClass = Zesium.Project.CompanySystem.Models.Project;
 using TaskClass = Zesium.Project.CompanySystem.Models.Task;
 
-namespace Zesium.Project.CompanySystem.WindowsApp
+namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
 {
-    class TaskForm : GenericForm<TaskClass>
+    public class EmployeeTasksForm : GenericForm<TaskClass>
     {
         private static List<Column> columns = new List<Column>
         {
@@ -28,17 +28,20 @@ namespace Zesium.Project.CompanySystem.WindowsApp
         };
 
         #region Constructors
-        public TaskForm(ProjectClass selectedProject) : base(columns, true, false, false, false, false)
+        public EmployeeTasksForm(ProjectClass project) : base(columns, false, true, false, false, false)
         {
+            SelectedProject = project;
+
             var values = new List<TaskClass>();
-            foreach (var currentTask in selectedProject.ProjectTasks.Values)
+            foreach (var currentTask in SelectedProject.ProjectTasks.Values)
             {
-                values.Add(currentTask);
+                if (currentTask.TasksEmployee == (Employee)Company.Instance.CurrentUser)
+                {
+                    values.Add(currentTask);
+                }
             }
 
             FillTable(values);
-
-            SelectedProject = selectedProject;
 
             this.Text = "Tasks";
         }
@@ -49,26 +52,26 @@ namespace Zesium.Project.CompanySystem.WindowsApp
         #endregion
 
         #region Actions
-        public override void HandleAddEvent()
+        public override void HandleAddEvent() { }
+
+        public override void HandleEditEvent(object selectedItem)
         {
-            if (SelectedProject.ProjectState == ProjectState.Finished || SelectedProject.ProjectState == ProjectState.Canceled)
+            if (((TaskClass)selectedItem).TaskState == TaskState.Done || ((TaskClass)selectedItem).TaskState == TaskState.Canceled)
             {
-                MessageBox.Show("Nije moguće dodati task, jer je projekat zavrsen ili otkazan.");
+                MessageBox.Show("Nije moguce editovati selektovani task, jer je vec izvrsen ili otkazan.");
                 Hide();
-                var taskForm = new TaskForm(SelectedProject);
-                taskForm.ShowDialog();
+                var tasksForm = new EmployeeTasksForm(SelectedProject);
+                tasksForm.ShowDialog();
                 Close();
             }
             else
             {
                 Hide();
-                var createTask = new CreateTask(SelectedProject);
-                createTask.ShowDialog();
+                var editTask = new EditTaskForm((TaskClass)selectedItem, SelectedProject);
+                editTask.ShowDialog();
                 Close();
             }
         }
-
-        public override void HandleEditEvent(object selectedItem) { }
 
         public override void HandlePromoteEvent(object selectedItem) { }
 

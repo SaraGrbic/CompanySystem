@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Windows.Forms;
 using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.WindowsApp.AdminForms;
 using Zesium.Project.CompanySystem.WindowsApp.Model;
@@ -23,7 +24,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         };
 
         #region Constructors
-        public ProjectsForm() : base(columns, true, true, true, false, true)
+        public ProjectsForm() : base(columns, true, true, false, false, true)
         {
             var values = new List<ProjectClass>();
             foreach (var managerProject in Company.Instance.Projects.Values)
@@ -49,12 +50,30 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             Close();
         }
 
-        public override void HandleRemoveEvent(object selectedItem) { }//TODO implement
+        public override void HandleEditEvent(object selectedItem)
+        {
+            if (((ProjectClass)selectedItem).ProjectState == ProjectState.Finished || ((ProjectClass)selectedItem).ProjectState == ProjectState.Canceled)
+            {
+                MessageBox.Show("Projekat nije moguce editovati, jer je zavrsen ili otkazan.");
+                Hide();
+                var projectsForm = new ProjectsForm();
+                projectsForm.ShowDialog();
+                Close();
 
-        public override void HandleEditEvent(object selectedItem) { }//TODO implement
+            }
+            else
+            {
+                Hide();
+                var editProject = new EditProjectForm((ProjectClass)selectedItem);
+                editProject.ShowDialog();
+                Close();
+            }
+        }
+
+        public override void HandleRemoveEvent(object selectedItem) { }
 
         public override void HandlePromoteEvent(object selectedItem) { }
-
+        
         public override void HandleTaskEvent(object selectedItem)
         {
             Hide();

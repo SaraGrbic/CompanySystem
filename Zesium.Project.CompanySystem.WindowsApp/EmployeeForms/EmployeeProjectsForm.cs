@@ -44,9 +44,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
         #endregion
 
         #region Actions
-        #endregion
-
-        #region Methods
         public override void HandleAddEvent() { }
 
         public override void HandleEditEvent(object selectedItem) { }
@@ -55,7 +52,16 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
 
         public override void HandleRemoveEvent(object selectedItem) { }
 
-        public override void HandleTaskEvent(object selectedItem) { }
+        public override void HandleTaskEvent(object selectedItem)
+        {
+            Hide();
+            var taskForm = new EmployeeTasksForm((ProjectClass)selectedItem);
+            taskForm.ShowDialog();
+            Close();
+        }
+        #endregion
+
+        #region Methods
         #endregion
     }
 }

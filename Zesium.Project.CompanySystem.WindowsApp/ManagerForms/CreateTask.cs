@@ -61,8 +61,8 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         private void CloseDialog()
         {
             Hide();
-            var projectForm = new ProjectsForm();
-            projectForm.ShowDialog();
+            var taskForm = new TaskForm(SelectedProject);
+            taskForm.ShowDialog();
             Close();
         }
         #endregion

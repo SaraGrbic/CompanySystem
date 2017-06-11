@@ -48,11 +48,9 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
 
         private int ParsePriceInput(string input)
         {
-            int projectCost = 0;
+            int projectCost;
 
-            bool result = int.TryParse(input, out projectCost);
-
-            if (result)
+            if (int.TryParse(input, out projectCost))
             {
                 return projectCost;
             }
