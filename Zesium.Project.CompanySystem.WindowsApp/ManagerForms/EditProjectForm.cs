@@ -41,6 +41,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             else if (rBtnCanceled.Checked == true)
             {
                 SelectedProject.ProjectState = ProjectState.Canceled;
+                ProjectCancelation(SelectedProject);
             }
             else SelectedProject.ProjectState = ProjectState.New;
 
@@ -98,6 +99,16 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             else
             {
                 return 0;
+            }
+        }
+
+        private void ProjectCancelation(ProjectClass project)
+        {
+            foreach(var currentTask in project.ProjectTasks.Values)
+            {
+                currentTask.TaskState = TaskState.Canceled;
+                currentTask.TaskEndTime = DateTime.Now;
+                currentTask.RemainingWorkingTime = 0;
             }
         }
         #endregion
