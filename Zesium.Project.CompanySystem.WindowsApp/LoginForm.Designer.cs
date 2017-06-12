@@ -48,9 +48,9 @@
             // 
             this.password_txtbx.Location = new System.Drawing.Point(176, 122);
             this.password_txtbx.Name = "password_txtbx";
+            this.password_txtbx.PasswordChar = '*';
             this.password_txtbx.Size = new System.Drawing.Size(100, 20);
             this.password_txtbx.TabIndex = 1;
-            //this.password_txtbx.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.password_txtbx_KeyPress);
             // 
             // lbl_welcome
             // 

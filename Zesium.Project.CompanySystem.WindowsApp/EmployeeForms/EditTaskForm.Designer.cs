@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblEstimatedTime = new System.Windows.Forms.Label();
             this.lblRemainingTime = new System.Windows.Forms.Label();
             this.lblState = new System.Windows.Forms.Label();
@@ -39,6 +40,8 @@
             this.rdBtnDone = new System.Windows.Forms.RadioButton();
             this.txtBxEstimatedTime = new System.Windows.Forms.TextBox();
             this.txtBxRemainingTime = new System.Windows.Forms.TextBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblEstimatedTime
@@ -141,6 +144,10 @@
             this.txtBxRemainingTime.Size = new System.Drawing.Size(100, 20);
             this.txtBxRemainingTime.TabIndex = 10;
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // EditTaskForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -160,6 +167,7 @@
             this.Name = "EditTaskForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Edit task";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,5 +186,6 @@
         private System.Windows.Forms.RadioButton rdBtnDone;
         private System.Windows.Forms.TextBox txtBxEstimatedTime;
         private System.Windows.Forms.TextBox txtBxRemainingTime;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

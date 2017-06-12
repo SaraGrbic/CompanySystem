@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.name_lbl = new System.Windows.Forms.Label();
             this.cancel_btn = new System.Windows.Forms.Button();
             this.department_combobx = new System.Windows.Forms.ComboBox();
@@ -41,6 +42,8 @@
             this.lastName_txtbx = new System.Windows.Forms.TextBox();
             this.name_txtbx = new System.Windows.Forms.TextBox();
             this.editAccount_btn = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // name_lbl
@@ -158,6 +161,10 @@
             this.editAccount_btn.Text = "Edit employee";
             this.editAccount_btn.Click += new System.EventHandler(this.editAccount_btn_Click);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // EditEmployeeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -179,6 +186,7 @@
             this.Name = "EditEmployeeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Edit employee";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,5 +207,6 @@
         private System.Windows.Forms.TextBox lastName_txtbx;
         private System.Windows.Forms.TextBox name_txtbx;
         private System.Windows.Forms.Button editAccount_btn;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

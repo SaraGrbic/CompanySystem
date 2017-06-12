@@ -8,7 +8,6 @@ namespace Zesium.Project.CompanySystem.Models
         New,
         InProgres,
         Finished,
-        Canceled,
-        Delay
+        Canceled
     }
 }

@@ -40,6 +40,8 @@
             this.btnTasks = new System.Windows.Forms.Button();
             this.btnEmployeeProjects = new System.Windows.Forms.Button();
             this.btnManagers = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.btnCreateAdmin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // signOut_btn
@@ -55,7 +57,7 @@
             // currentUserDescr_lbl
             // 
             this.currentUserDescr_lbl.AutoSize = true;
-            this.currentUserDescr_lbl.Location = new System.Drawing.Point(13, 21);
+            this.currentUserDescr_lbl.Location = new System.Drawing.Point(12, 16);
             this.currentUserDescr_lbl.Name = "currentUserDescr_lbl";
             this.currentUserDescr_lbl.Size = new System.Drawing.Size(141, 13);
             this.currentUserDescr_lbl.TabIndex = 1;
@@ -64,7 +66,7 @@
             // currentUserName_lbl
             // 
             this.currentUserName_lbl.AutoSize = true;
-            this.currentUserName_lbl.Location = new System.Drawing.Point(160, 22);
+            this.currentUserName_lbl.Location = new System.Drawing.Point(159, 17);
             this.currentUserName_lbl.Name = "currentUserName_lbl";
             this.currentUserName_lbl.Size = new System.Drawing.Size(35, 13);
             this.currentUserName_lbl.TabIndex = 2;
@@ -73,7 +75,7 @@
             // currentUserLastname_lbl
             // 
             this.currentUserLastname_lbl.AutoSize = true;
-            this.currentUserLastname_lbl.Location = new System.Drawing.Point(222, 22);
+            this.currentUserLastname_lbl.Location = new System.Drawing.Point(221, 17);
             this.currentUserLastname_lbl.Name = "currentUserLastname_lbl";
             this.currentUserLastname_lbl.Size = new System.Drawing.Size(35, 13);
             this.currentUserLastname_lbl.TabIndex = 3;
@@ -82,7 +84,7 @@
             // departmentDescr_lbl
             // 
             this.departmentDescr_lbl.AutoSize = true;
-            this.departmentDescr_lbl.Location = new System.Drawing.Point(16, 63);
+            this.departmentDescr_lbl.Location = new System.Drawing.Point(15, 58);
             this.departmentDescr_lbl.Name = "departmentDescr_lbl";
             this.departmentDescr_lbl.Size = new System.Drawing.Size(107, 13);
             this.departmentDescr_lbl.TabIndex = 4;
@@ -91,7 +93,7 @@
             // currentUserDepartment_lbl
             // 
             this.currentUserDepartment_lbl.AutoSize = true;
-            this.currentUserDepartment_lbl.Location = new System.Drawing.Point(129, 63);
+            this.currentUserDepartment_lbl.Location = new System.Drawing.Point(128, 58);
             this.currentUserDepartment_lbl.Name = "currentUserDepartment_lbl";
             this.currentUserDepartment_lbl.Size = new System.Drawing.Size(35, 13);
             this.currentUserDepartment_lbl.TabIndex = 5;
@@ -99,7 +101,7 @@
             // 
             // listOfEmployees_btn
             // 
-            this.listOfEmployees_btn.Location = new System.Drawing.Point(183, 89);
+            this.listOfEmployees_btn.Location = new System.Drawing.Point(391, 114);
             this.listOfEmployees_btn.Name = "listOfEmployees_btn";
             this.listOfEmployees_btn.Size = new System.Drawing.Size(122, 46);
             this.listOfEmployees_btn.TabIndex = 10;
@@ -110,7 +112,7 @@
             // 
             // listOfDepartments_btn
             // 
-            this.listOfDepartments_btn.Location = new System.Drawing.Point(16, 89);
+            this.listOfDepartments_btn.Location = new System.Drawing.Point(224, 114);
             this.listOfDepartments_btn.Name = "listOfDepartments_btn";
             this.listOfDepartments_btn.Size = new System.Drawing.Size(122, 46);
             this.listOfDepartments_btn.TabIndex = 11;
@@ -121,7 +123,7 @@
             // 
             // btnManagerProjects
             // 
-            this.btnManagerProjects.Location = new System.Drawing.Point(16, 89);
+            this.btnManagerProjects.Location = new System.Drawing.Point(224, 114);
             this.btnManagerProjects.Name = "btnManagerProjects";
             this.btnManagerProjects.Size = new System.Drawing.Size(122, 46);
             this.btnManagerProjects.TabIndex = 12;
@@ -132,7 +134,7 @@
             // 
             // btnTasks
             // 
-            this.btnTasks.Location = new System.Drawing.Point(183, 89);
+            this.btnTasks.Location = new System.Drawing.Point(391, 114);
             this.btnTasks.Name = "btnTasks";
             this.btnTasks.Size = new System.Drawing.Size(122, 46);
             this.btnTasks.TabIndex = 13;
@@ -143,7 +145,7 @@
             // 
             // btnEmployeeProjects
             // 
-            this.btnEmployeeProjects.Location = new System.Drawing.Point(16, 89);
+            this.btnEmployeeProjects.Location = new System.Drawing.Point(224, 114);
             this.btnEmployeeProjects.Name = "btnEmployeeProjects";
             this.btnEmployeeProjects.Size = new System.Drawing.Size(119, 46);
             this.btnEmployeeProjects.TabIndex = 14;
@@ -154,7 +156,7 @@
             // 
             // btnManagers
             // 
-            this.btnManagers.Location = new System.Drawing.Point(186, 89);
+            this.btnManagers.Location = new System.Drawing.Point(394, 114);
             this.btnManagers.Name = "btnManagers";
             this.btnManagers.Size = new System.Drawing.Size(119, 46);
             this.btnManagers.TabIndex = 15;
@@ -163,11 +165,31 @@
             this.btnManagers.Visible = false;
             this.btnManagers.Click += new System.EventHandler(this.btnManagers_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(757, 24);
+            this.menuStrip1.TabIndex = 16;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // btnCreateAdmin
+            // 
+            this.btnCreateAdmin.Location = new System.Drawing.Point(562, 114);
+            this.btnCreateAdmin.Name = "btnCreateAdmin";
+            this.btnCreateAdmin.Size = new System.Drawing.Size(119, 46);
+            this.btnCreateAdmin.TabIndex = 17;
+            this.btnCreateAdmin.Text = "Create admin";
+            this.btnCreateAdmin.UseVisualStyleBackColor = true;
+            this.btnCreateAdmin.Visible = false;
+            this.btnCreateAdmin.Click += new System.EventHandler(this.btnCreateAdmin_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(757, 357);
+            this.Controls.Add(this.btnCreateAdmin);
             this.Controls.Add(this.btnManagers);
             this.Controls.Add(this.btnEmployeeProjects);
             this.Controls.Add(this.btnTasks);
@@ -180,6 +202,8 @@
             this.Controls.Add(this.currentUserName_lbl);
             this.Controls.Add(this.currentUserDescr_lbl);
             this.Controls.Add(this.signOut_btn);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "  ";
@@ -202,5 +226,7 @@
         private System.Windows.Forms.Button btnTasks;
         private System.Windows.Forms.Button btnEmployeeProjects;
         private System.Windows.Forms.Button btnManagers;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.Button btnCreateAdmin;
     }
 }

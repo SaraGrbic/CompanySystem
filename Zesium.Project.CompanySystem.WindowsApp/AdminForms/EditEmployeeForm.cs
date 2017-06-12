@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using Zesium.Project.CompanySystem.Models;
+using Zesium.Project.CompanySystem.Models.Services;
 using Zesium.Project.CompanySystem.WindowsApp;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
@@ -36,9 +37,15 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 
         private void editAccount_btn_Click(object sender, EventArgs e)
         {
-            ChangeSelectedUser(SelectedUser);
+            if (InputServices.TextBoxError(name_txtbx, errorProvider1) && InputServices.TextBoxError(lastName_txtbx, errorProvider1)
+                && InputServices.ComboBoxError(department_combobx, errorProvider1))
+            {
+                ChangeSelectedUser(SelectedUser);
 
-            CloseDialog();
+                CloseDialog();
+            }
+
+             
 
         }
         #endregion
@@ -70,9 +77,12 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         
         private void SetDepartments()
         {
-            foreach (Department departments in Company.Instance.Departments.Values)
+            foreach (Department department in Company.Instance.Departments.Values)
             {
-                department_combobx.Items.Add(departments);
+                if (department.IsDepartmentActive == true)
+                {
+                    department_combobx.Items.Add(department);
+                }
             }
         }
 

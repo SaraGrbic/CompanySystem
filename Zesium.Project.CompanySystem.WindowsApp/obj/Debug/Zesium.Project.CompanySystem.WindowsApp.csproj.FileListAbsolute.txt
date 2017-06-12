@@ -19,3 +19,4 @@ C:\Users\Coja\Desktop\Zesium\!Obuka\1.Introduction to C# and .Net\Zesium.Project
 C:\Users\Coja\Desktop\Zesium\!Obuka\1.Introduction to C# and .Net\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.CreateTask.resources
 C:\Users\Coja\Desktop\Zesium\!Obuka\1.Introduction to C# and .Net\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.EmployeeForms.EditTaskForm.resources
 C:\Users\Coja\Desktop\Zesium\!Obuka\1.Introduction to C# and .Net\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.EditProjectForm.resources
+C:\Users\Coja\Desktop\Zesium\!Obuka\1.Introduction to C# and .Net\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.CreateAdminForm.resources

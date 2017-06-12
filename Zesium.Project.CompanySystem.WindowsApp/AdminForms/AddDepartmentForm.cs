@@ -33,16 +33,21 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 
         private void createDepartment_btn_Click(object sender, EventArgs e)
         {
-            if (SelectedDepartment == null)
+            if (InputServices.TextBoxError(depName_txtbx, errorProvider1)
+                    && InputServices.RichTextBoxError(depDescription_txtbx, errorProvider1))
             {
-                InputServices.CreateDepartment(depName_txtbx.Text, depDescription_txtbx.Text);
-                CloseDialog();
+                if (SelectedDepartment == null)
+                {
+                    InputServices.CreateDepartment(depName_txtbx.Text, depDescription_txtbx.Text);
+                    CloseDialog();
+                }
+                else
+                {
+                    ChangeSelectedDepartment(SelectedDepartment);
+                    CloseDialog();
+                }
             }
-            else
-            {
-                ChangeSelectedDepartment(SelectedDepartment);
-                CloseDialog();
-            }
+             
         }
         #endregion
 

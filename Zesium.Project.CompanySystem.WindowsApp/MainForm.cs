@@ -73,6 +73,14 @@ namespace Zesium.Project.CompanySystem.WindowsApp
             managerListForm.ShowDialog();
             Close();
         }
+
+        private void btnCreateAdmin_Click(object sender, EventArgs e)
+        {
+            Hide();
+            var createAdmin = new CreateAdminForm();
+            createAdmin.ShowDialog();
+            Close();
+        }
         #endregion
 
         #region Methods
@@ -98,6 +106,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp
                 case UserType.Administrator :
                     listOfDepartments_btn.Visible = true;
                     listOfEmployees_btn.Visible = true;
+                    btnCreateAdmin.Visible = true;
                 break;
             }
         }

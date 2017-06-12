@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnPromote = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.lblPromote = new System.Windows.Forms.Label();
             this.cmbbxDepartments = new System.Windows.Forms.ComboBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnPromote
@@ -71,6 +74,10 @@
             this.cmbbxDepartments.Size = new System.Drawing.Size(121, 21);
             this.cmbbxDepartments.TabIndex = 3;
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // PromoteEmployeeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -83,6 +90,7 @@
             this.Name = "PromoteEmployeeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Promote employee";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -94,5 +102,6 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label lblPromote;
         private System.Windows.Forms.ComboBox cmbbxDepartments;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

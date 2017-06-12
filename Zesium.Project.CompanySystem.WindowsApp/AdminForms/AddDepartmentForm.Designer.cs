@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.depName_lbl = new System.Windows.Forms.Label();
             this.depName_txtbx = new System.Windows.Forms.TextBox();
             this.depDescription_lbl = new System.Windows.Forms.Label();
             this.depDescription_txtbx = new System.Windows.Forms.RichTextBox();
             this.createDepartment_btn = new System.Windows.Forms.Button();
             this.cancel_btn = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // depName_lbl
@@ -89,6 +92,10 @@
             this.cancel_btn.UseVisualStyleBackColor = true;
             this.cancel_btn.Click += new System.EventHandler(this.cancel_btn_Click);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // AddDepartmentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -103,6 +110,7 @@
             this.Name = "AddDepartmentForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add or edit department";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,5 +124,6 @@
         private System.Windows.Forms.RichTextBox depDescription_txtbx;
         private System.Windows.Forms.Button createDepartment_btn;
         private System.Windows.Forms.Button cancel_btn;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

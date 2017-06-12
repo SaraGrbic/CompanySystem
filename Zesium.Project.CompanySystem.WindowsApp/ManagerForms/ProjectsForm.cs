@@ -20,7 +20,8 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             new Column() {PropertyName="ProjectEndDate", Title="End time", PropertyType=typeof(DateTime) },
             new Column() {PropertyName="ProjectManager", Title="Owner", PropertyType=typeof(string) },
             new Column() {PropertyName="Department", Title = "Department", PropertyType = typeof(Department) },
-            new Column() {PropertyName="ProjectDescription", Title="Description", PropertyType=typeof(string) }
+            new Column() {PropertyName="ProjectDescription", Title="Description", PropertyType=typeof(string) },
+            new Column() {PropertyName="Delayed", Title="Is project delayed", PropertyType=typeof(bool) }
         };
 
         #region Constructors
@@ -44,10 +45,18 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         #region Actions
         public override void HandleAddEvent()
         {
-            Hide();
-            var createProject = new CreateProjectForm();
-            createProject.ShowDialog();
-            Close();
+            if (Company.Instance.CurrentUser.Department.DepartmentId != 0)
+            {
+                Hide();
+                var createProject = new CreateProjectForm();
+                createProject.ShowDialog();
+                Close();
+            }
+            else
+            {
+                MessageBox.Show("Ova opcija Vam nije dostupna, jer nemate departman.");
+                CloseDialog();
+            }
         }
 
         public override void HandleEditEvent(object selectedItem)
@@ -55,11 +64,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             if (((ProjectClass)selectedItem).ProjectState == ProjectState.Finished || ((ProjectClass)selectedItem).ProjectState == ProjectState.Canceled)
             {
                 MessageBox.Show("Projekat nije moguce editovati, jer je zavrsen ili otkazan.");
-                Hide();
-                var projectsForm = new ProjectsForm();
-                projectsForm.ShowDialog();
-                Close();
-
+                CloseDialog();
             }
             else
             {
@@ -84,6 +89,13 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         #endregion
 
         #region Methods
+        private void CloseDialog()
+        {
+            Hide();
+            var projectsForm = new ProjectsForm();
+            projectsForm.ShowDialog();
+            Close();
+        }
         #endregion
     }
 }

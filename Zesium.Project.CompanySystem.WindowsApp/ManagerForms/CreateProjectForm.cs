@@ -34,8 +34,12 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
-            InputServices.CreateProject(txtbxName.Text, ParsePriceInput(txtbxCost.Text), rtxtbxDescription.Text, pckrStart.Value, pckrEnd.Value, (Manager)Company.Instance.CurrentUser, Company.Instance.CurrentUser.Department);
-            CloseDialog();
+            if (InputServices.TextBoxError(txtbxName, errorProvider1) && InputServices.DateTimePickersError(pckrStart, pckrEnd, errorProvider1) && InputServices.TextBoxIntError(txtbxCost, errorProvider1)
+                && InputServices.RichTextBoxError(rtxtbxDescription, errorProvider1))
+            {
+                InputServices.CreateProject(txtbxName.Text, int.Parse(txtbxCost.Text), rtxtbxDescription.Text, pckrStart.Value, pckrEnd.Value, (Manager)Company.Instance.CurrentUser, Company.Instance.CurrentUser.Department);
+                CloseDialog();
+            }
         }
         #endregion
 
@@ -46,20 +50,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             lblOwnerLastname.Text = Company.Instance.CurrentUser.Lastname;
         }
 
-        private int ParsePriceInput(string input)
-        {
-            int projectCost;
-
-            if (int.TryParse(input, out projectCost))
-            {
-                return projectCost;
-            }
-            else
-            {
-                return 0;
-            }
-        }
-
         private void CloseDialog()
         {
             Hide();
@@ -67,6 +57,20 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             projectsForm.ShowDialog();
             Close();
         }
+
+        //private int ParsePriceInput(string input)
+        //{
+        //    int projectCost;
+
+        //    if (int.TryParse(input, out projectCost))
+        //    {
+        //        return projectCost;
+        //    }
+        //    else
+        //    {
+        //        return 0;
+        //    }
+        //}
         #endregion
     }
 }

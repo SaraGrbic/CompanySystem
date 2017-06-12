@@ -52,6 +52,12 @@
     <Compile Include="AdminForms\AddDepartmentForm.Designer.cs">
       <DependentUpon>AddDepartmentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminForms\CreateAdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\CreateAdminForm.Designer.cs">
+      <DependentUpon>CreateAdminForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminForms\EmployeesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,9 @@
     </Compile>
     <EmbeddedResource Include="AdminForms\AddDepartmentForm.resx">
       <DependentUpon>AddDepartmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\CreateAdminForm.resx">
+      <DependentUpon>CreateAdminForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminForms\GenericForm.resx">
       <DependentUpon>GenericForm.cs</DependentUpon>

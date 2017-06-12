@@ -23,7 +23,7 @@ namespace Zesium.Project.CompanySystem.Models
         #region Constructors
         public Project(int projectId, string projectName, int projectPrice, string projectDescription, DateTime projectStartDate, DateTime projectEndDate, Manager projectManager, Department department)
         {
-            ProjectId =projectId;
+            ProjectId = projectId;
             ProjectName = projectName;
             ProjectPrice = projectPrice;
             ProjectState = ProjectState.New;
@@ -113,6 +113,14 @@ namespace Zesium.Project.CompanySystem.Models
             set
             {
                 _projectId = value;
+            }
+        }
+
+        public bool Delayed
+        {
+            get
+            {
+                return DateTime.Now > ProjectEndDate;
             }
         }
         #endregion

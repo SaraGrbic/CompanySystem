@@ -22,7 +22,8 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
             new Column() {PropertyName="ProjectEndDate", Title="End time", PropertyType=typeof(DateTime) },
             new Column() {PropertyName="ProjectManager", Title="Owner", PropertyType=typeof(string) },
             new Column() {PropertyName="Department", Title = "Department", PropertyType = typeof(Department) },
-            new Column() {PropertyName="ProjectDescription", Title="Description", PropertyType=typeof(string) }
+            new Column() {PropertyName="ProjectDescription", Title="Description", PropertyType=typeof(string) },
+            new Column() {PropertyName="Delayed", Title="Is project delayed", PropertyType=typeof(bool) }
         };
 
         #region Constructors

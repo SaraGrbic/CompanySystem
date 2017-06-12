@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Zesium.Project.CompanySystem.Models;
+using Zesium.Project.CompanySystem.Models.Services;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 {
@@ -35,10 +36,13 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 
         private void btnPromote_Click(object sender, EventArgs e)
         {
-            var newManager = new Manager(SelectedUser, cmbbxDepartments.SelectedItem as Department);
-            Company.Instance.Users.Remove(SelectedUser.Id);
-            Company.Instance.Users.Add(newManager.Id, newManager);
-            CloseDialog();
+            if (InputServices.ComboBoxError(cmbbxDepartments, errorProvider1))
+            {
+                var newManager = new Manager(SelectedUser, cmbbxDepartments.SelectedItem as Department);
+                Company.Instance.Users.Remove(SelectedUser.Id);
+                Company.Instance.Users.Add(newManager.Id, newManager);
+                CloseDialog();
+            }
         }
         #endregion
 
@@ -53,9 +57,12 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 
         private void SetDepartments()
         {
-            foreach (Department departments in Company.Instance.Departments.Values)
+            foreach (Department department in Company.Instance.Departments.Values)
             {
-                cmbbxDepartments.Items.Add(departments);
+                if (department.IsDepartmentActive == true)
+                {
+                    cmbbxDepartments.Items.Add(department);
+                }
             }
         }
         #endregion

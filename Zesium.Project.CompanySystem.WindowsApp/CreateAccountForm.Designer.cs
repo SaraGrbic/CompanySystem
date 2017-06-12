@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.createAccount_btn = new System.Windows.Forms.Button();
             this.username_lbl = new System.Windows.Forms.Label();
             this.username_txtbx = new System.Windows.Forms.TextBox();
@@ -45,6 +46,8 @@
             this.department_combobx = new System.Windows.Forms.ComboBox();
             this.cancel_btn = new System.Windows.Forms.Button();
             this.name_lbl = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // createAccount_btn
@@ -194,6 +197,10 @@
             this.name_lbl.TabIndex = 20;
             this.name_lbl.Text = "Vaše ime";
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // CreateAccountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -219,6 +226,7 @@
             this.Name = "CreateAccountForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create Account";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -243,5 +251,6 @@
         private System.Windows.Forms.ComboBox department_combobx;
         private System.Windows.Forms.Button cancel_btn;
         private System.Windows.Forms.Label name_lbl;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

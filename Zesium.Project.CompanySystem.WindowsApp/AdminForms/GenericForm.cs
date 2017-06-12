@@ -66,6 +66,39 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         public void FillTable(List<T> values)
         {
             dgvGenericTable.DataSource = values;
+
+            
+            if (dgvGenericTable.Rows.Count < 1)
+            {
+                btnEdit.Enabled = false;
+                btnRemove.Enabled = false;
+                btnPromote.Enabled = false;
+                btnTask.Enabled = false;
+            }
+        }
+
+        public void FilterTableByDepartment(string departmentName)
+        {
+            //cm vraca ceo objekat, a ne prop kao pm           // bindingcontext pravi razlicite instance istog datasource
+            CurrencyManager currencyManager1 = (CurrencyManager)BindingContext[dgvGenericTable.DataSource];
+
+            // temporary suspension and resumption of data binding in a simple binding scenario
+            currencyManager1.SuspendBinding();
+
+            foreach (DataGridViewRow row in dgvGenericTable.Rows)
+            {
+
+                if (departmentName != "All" && row.Cells[5].Value.ToString() != departmentName)
+                {
+                    row.Visible = false;
+                }
+                else
+                {
+                    row.Visible = true;
+                }
+            }
+            
+            currencyManager1.ResumeBinding();
         }
 
         public abstract void HandleAddEvent();

@@ -16,13 +16,18 @@ namespace Zesium.Project.CompanySystem.WindowsApp
         #region Actions
         private void createAccount_btn_Click(object sender, EventArgs e)
         {
-            DateTime dayOfBirth = dayOfBirth_pckr.Value;
-            Department department = department_combobx.SelectedItem as Department;
-            InputServices.CreateUser(username_txtbx.Text, password_txtbx.Text, name_txtbx.Text, lastName_txtbx.Text, dayOfBirth, GenderChoice(), department);
-            Hide();
-            var mainForm = new MainForm();
-            mainForm.ShowDialog();
-            Close();
+            if (InputServices.TextBoxError(username_txtbx, errorProvider1) && InputServices.TextBoxError(password_txtbx, errorProvider1)
+                && InputServices.TextBoxError(name_txtbx, errorProvider1) && InputServices.TextBoxError(lastName_txtbx, errorProvider1)
+                && InputServices.ComboBoxError(department_combobx, errorProvider1))
+            {
+                DateTime dayOfBirth = dayOfBirth_pckr.Value;
+                Department department = department_combobx.SelectedItem as Department;
+                InputServices.CreateUser(username_txtbx.Text, password_txtbx.Text, name_txtbx.Text, lastName_txtbx.Text, dayOfBirth, GenderChoice(), department);
+                Hide();
+                var mainForm = new MainForm();
+                mainForm.ShowDialog();
+                Close();
+            }
         }
 
         private void cancel_btn_Click(object sender, EventArgs e)
@@ -46,7 +51,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp
             }
         }
 
-        public Gender GenderChoice()
+        private Gender GenderChoice()
         {
             if (genderMale_rbtn.Checked)
             {

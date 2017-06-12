@@ -36,9 +36,13 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
-            InputServices.CreateTask(txtbxName.Text, pckrStartTime.Value, pckrEndTime.Value, rchTxtBxDescription.Text, (Employee)dgvEmployees.CurrentRow.DataBoundItem, SelectedProject);
-            SelectedProject.ProjectState = ProjectState.InProgres;
-            CloseDialog();
+            if (InputServices.TextBoxError(txtbxName, errorProvider1) && InputServices.DateTimePickersError(pckrStartTime, pckrEndTime, errorProvider1)
+                && InputServices.RichTextBoxError(rchTxtBxDescription, errorProvider1))
+            {
+                InputServices.CreateTask(txtbxName.Text, pckrStartTime.Value, pckrEndTime.Value, rchTxtBxDescription.Text, (Employee)dgvEmployees.CurrentRow.DataBoundItem, SelectedProject);
+                SelectedProject.ProjectState = ProjectState.InProgres;
+                CloseDialog();
+            }
         }
         #endregion
 

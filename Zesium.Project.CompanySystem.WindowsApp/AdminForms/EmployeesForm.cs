@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,9 +34,37 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             FillTable(values);
 
             this.Text = "Employees";
+
+            //pravljenje cbox-a samo za ovu formu
+            var cBoxDepartments = new ComboBox();
+            cBoxDepartments.Location = new Point(800, 14);
+            cBoxDepartments.DropDownStyle = ComboBoxStyle.DropDownList;
+
+            var listOfDepartmentNames = new List<string>();
+            foreach (var department in Company.Instance.Departments.Values)
+            {
+                if (department.IsDepartmentActive)
+                {
+                    listOfDepartmentNames.Add(department.Name);
+                }
+            }
+
+            listOfDepartmentNames.Insert(0, "All");
+
+            cBoxDepartments.DataSource = listOfDepartmentNames;
+            
+            cBoxDepartments.SelectionChangeCommitted += CBoxDepartments_SelectionChangeCommitted;
+
+            this.Controls.Add(cBoxDepartments);
         }
 
-        public override void HandleAddEvent(){}
+        #region Actions
+        private void CBoxDepartments_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            FilterTableByDepartment(((ComboBox)sender).SelectedValue.ToString());
+        }
+
+        public override void HandleAddEvent() { }
 
         public override void HandleRemoveEvent(object selectedItem) { }
 
@@ -48,7 +77,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             }
             else
             {
-                
+
                 MessageBox.Show("Admin Almighty ne moze biti izmenjen!");
                 CloseDialog();
             }
@@ -71,6 +100,8 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         }
 
         public override void HandleTaskEvent(object selectedItem) { }
+        #endregion
+
         #region Methods
         private void CloseDialog()
         {

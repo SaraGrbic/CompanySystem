@@ -15,10 +15,22 @@ namespace Zesium.Project.CompanySystem.Models
             Password = "admin";
             Name = "Admin";
             Lastname = "Almighty";
-            //DateTime adminAlmightyBirthday = new DateTime(1900, 01, 01);
-            DayOfBirth = new DateTime(1900, 01, 01);//adminAlmightyBirthday;
+            DayOfBirth = new DateTime(1900, 01, 01);
             Gender = Gender.Unknown;
             Id = 0;
+            UserType = UserType.Administrator;
+        }
+
+        public Administrator(int id, string username, string password, string name, string lastname, DateTime dayOfBirth, Gender gender)
+        {
+            Id = id;
+            Username = username;
+            Password = password;
+            Name = name;
+            Lastname = lastname;
+            DayOfBirth = dayOfBirth;
+            Gender = gender;
+            Department = Company.Instance.Departments[0];
             UserType = UserType.Administrator;
         }
         #endregion

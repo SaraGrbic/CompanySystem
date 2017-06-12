@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.txtbxName = new System.Windows.Forms.TextBox();
@@ -43,6 +44,8 @@
             this.rBtnInProgres = new System.Windows.Forms.RadioButton();
             this.rBtnFinished = new System.Windows.Forms.RadioButton();
             this.rBtnCanceled = new System.Windows.Forms.RadioButton();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCancel
@@ -164,6 +167,7 @@
             // rBtnFinished
             // 
             this.rBtnFinished.AutoSize = true;
+            this.rBtnFinished.Enabled = false;
             this.rBtnFinished.Location = new System.Drawing.Point(179, 237);
             this.rBtnFinished.Name = "rBtnFinished";
             this.rBtnFinished.Size = new System.Drawing.Size(64, 17);
@@ -182,6 +186,10 @@
             this.rBtnCanceled.TabStop = true;
             this.rBtnCanceled.Text = "Canceled";
             this.rBtnCanceled.UseVisualStyleBackColor = true;
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // EditProjectForm
             // 
@@ -206,6 +214,7 @@
             this.Name = "EditProjectForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Edit project";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -228,5 +237,6 @@
         private System.Windows.Forms.RadioButton rBtnInProgres;
         private System.Windows.Forms.RadioButton rBtnFinished;
         private System.Windows.Forms.RadioButton rBtnCanceled;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

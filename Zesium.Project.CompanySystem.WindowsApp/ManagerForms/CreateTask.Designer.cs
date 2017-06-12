@@ -51,8 +51,10 @@
             this.btnCancel = new System.Windows.Forms.Button();
             this.lblEndTime = new System.Windows.Forms.Label();
             this.pckrEndTime = new System.Windows.Forms.DateTimePicker();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblName
@@ -243,6 +245,10 @@
             this.pckrEndTime.Size = new System.Drawing.Size(200, 20);
             this.pckrEndTime.TabIndex = 12;
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // CreateTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -265,6 +271,7 @@
             this.Text = "Create task";
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployees)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,5 +301,6 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label lblEndTime;
         private System.Windows.Forms.DateTimePicker pckrEndTime;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

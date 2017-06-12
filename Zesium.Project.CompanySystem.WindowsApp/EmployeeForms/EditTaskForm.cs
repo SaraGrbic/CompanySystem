@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using ProjectClass = Zesium.Project.CompanySystem.Models.Project;
 using TaskClass = Zesium.Project.CompanySystem.Models.Task;
 using Zesium.Project.CompanySystem.Models;
+using Zesium.Project.CompanySystem.Models.Services;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
 {
@@ -30,8 +31,11 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
         #region Actions
         private void btnEdit_Click(object sender, EventArgs e)
         {
-                SelectedTask.EstimatedWorkingTime = ParseWorkingTimeInput(txtBxEstimatedTime.Text);
-                SelectedTask.RemainingWorkingTime = ParseWorkingTimeInput(txtBxRemainingTime.Text);
+            if(InputServices.TextBoxIntError(txtBxEstimatedTime, errorProvider1) && InputServices.TextBoxIntError(txtBxRemainingTime, errorProvider1)
+                && InputServices.RichTextBoxError(rchTxtBxComment, errorProvider1))
+            {
+                SelectedTask.EstimatedWorkingTime = int.Parse(txtBxEstimatedTime.Text);
+                SelectedTask.RemainingWorkingTime = int.Parse(txtBxRemainingTime.Text);
                 SelectedTask.TaskComment = rchTxtBxComment.Text;
                 if (rdBtnInProgress.Checked)
                 {
@@ -45,7 +49,8 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
                 }
                 else { SelectedTask.TaskState = TaskState.To_Do; }
 
-            CloseDialog();
+                CloseDialog();
+            }
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -67,20 +72,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
             employeeTasks.ShowDialog();
             Close();
 
-        }
-
-        private int ParseWorkingTimeInput(string input)
-        {
-            int time;
-
-            if (int.TryParse(input, out time))
-            {
-                return time;
-            }
-            else
-            {
-                return 0;
-            }
         }
 
         private void ShowSelectedTask(TaskClass task)
