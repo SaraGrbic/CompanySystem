@@ -7,7 +7,7 @@ namespace Zesium.Project.CompanySystem.Models
     public class Employee : User
     {
         #region Fields
-        private Dictionary<int, Project> _employeeProjects;
+        private Dictionary<int, Project> _employeeProjects; //***///
         #endregion
 
         #region Constructors

@@ -8,9 +8,6 @@ namespace Zesium.Project.CompanySystem.Models
     [Serializable]
     public sealed class Company
     {
-        #region Constants
-        private const string FILE_PATH = @"C:\Users\Coja\Desktop\CompanySystem.bin";
-        #endregion Constants
 
         #region Fields
         private Dictionary<int, User> _users;
@@ -66,7 +63,6 @@ namespace Zesium.Project.CompanySystem.Models
                 if (_company == null)
                 {
                     _company = new Company();
-                    _company.ReadFromBinaryOrCreate();
                 }
 
                 return _company;
@@ -75,28 +71,22 @@ namespace Zesium.Project.CompanySystem.Models
         #endregion
 
         #region Methods
-        public void SaveInBinary(Company company)
+        public void SaveInBinary(Company company, string path)
         {
-            FileStream fs = new FileStream(FILE_PATH, FileMode.OpenOrCreate, FileAccess.Write);
+            FileStream fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write);
             BinaryFormatter serializer = new BinaryFormatter();
             serializer.Serialize(fs, company);
             fs.Close();
         }
 
-        public Company ReadFromBinaryOrCreate()
+        public Company ReadFromBinary(string path)
         {
-            
-            if (!File.Exists(FILE_PATH))
-            {
-                SaveInBinary(_company);
-            }
-            else
-            {
-                FileStream fs = new FileStream(FILE_PATH, FileMode.Open, FileAccess.Read);
-                BinaryFormatter deserializer = new BinaryFormatter();
-                _company = (Company)deserializer.Deserialize(fs);
-                fs.Close();
-            }
+
+            FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read);
+            BinaryFormatter deserializer = new BinaryFormatter();
+            _company = (Company)deserializer.Deserialize(fs);
+            fs.Close();
+
             return _company;
         }
         #endregion

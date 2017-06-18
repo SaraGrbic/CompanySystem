@@ -14,7 +14,8 @@ namespace Zesium.Project.CompanySystem.WindowsApp
             //password_txtbx.Text = "admin";
         }
 
-        private void signUp_btn_Click(object sender, EventArgs e)
+        #region Actions
+        private void btnSignUp_Click(object sender, EventArgs e)
         {
             Hide();
             var createAccountForm = new CreateAccountForm();
@@ -22,7 +23,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp
             Close();
         }
 
-        private void signIn_btn_Click(object sender, EventArgs e)
+        private void btnSignIn_Click(object sender, EventArgs e)
         {
             if (InputServices.SignInSuccessful(username_txtbx.Text, password_txtbx.Text))
             {
@@ -41,6 +42,26 @@ namespace Zesium.Project.CompanySystem.WindowsApp
             }
         }
 
-
+        private void loadCompanyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult result = openFileDialog1.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                string path = openFileDialog1.FileName;
+                try
+                {
+                    Company.Instance.ReadFromBinary(path);
+                }
+                catch
+                {
+                    MessageBox.Show("Fajl ne moze biti otvoren.");
+                }
+                finally
+                {
+                    MessageBox.Show("Uspesno ste otvorili fajl.");
+                }
+            }
+        }
+        #endregion
     }
 }

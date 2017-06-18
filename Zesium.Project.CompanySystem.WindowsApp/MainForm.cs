@@ -17,16 +17,15 @@ namespace Zesium.Project.CompanySystem.WindowsApp
 
         }
         #region Actions
-        private void signOut_btn_Click(object sender, EventArgs e)
+        private void btnSignOut_Click(object sender, EventArgs e)
         {
-            Company.Instance.SaveInBinary(Company.Instance);
             Hide();
             LoginForm loginForm = new LoginForm();
             loginForm.ShowDialog();
             Close();
         }
 
-        private void listOfDepartments_btn_Click_1(object sender, EventArgs e)
+        private void btnListOfDepartments_Click(object sender, EventArgs e)
         {
             Hide();
             var departmentForm = new DepartmentsForm();
@@ -34,7 +33,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp
             Close();
         }
 
-        private void listOfEmployees_btn_Click(object sender, EventArgs e)
+        private void btnListOfEmployees_Click(object sender, EventArgs e)
         {
             Hide();
             var employeesForm = new EmployeesForm();
@@ -81,6 +80,27 @@ namespace Zesium.Project.CompanySystem.WindowsApp
             createAdmin.ShowDialog();
             Close();
         }
+
+        private void saveCompanyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult result = saveFileDialog1.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                string path = saveFileDialog1.FileName;
+                try
+                {
+                    Company.Instance.SaveInBinary(Company.Instance, path);
+                }
+                catch
+                {
+                    MessageBox.Show("Fajl nije uspesno snimljen");
+                }
+                finally
+                {
+                    MessageBox.Show("Fajl je uspesno snimljen.");
+                }
+            }
+        }
         #endregion
 
         #region Methods
@@ -102,12 +122,12 @@ namespace Zesium.Project.CompanySystem.WindowsApp
                 case UserType.Manager:
                     btnManagerProjects.Visible = true;
                     btnTasks.Visible = true;
-                break;
-                case UserType.Administrator :
-                    listOfDepartments_btn.Visible = true;
-                    listOfEmployees_btn.Visible = true;
+                    break;
+                case UserType.Administrator:
+                    btnListOfDepartments.Visible = true;
+                    btnListOfEmployees.Visible = true;
                     btnCreateAdmin.Visible = true;
-                break;
+                    break;
             }
         }
         #endregion
