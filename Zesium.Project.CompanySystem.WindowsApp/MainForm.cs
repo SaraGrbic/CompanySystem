@@ -90,14 +90,11 @@ namespace Zesium.Project.CompanySystem.WindowsApp
                 try
                 {
                     Company.Instance.SaveInBinary(Company.Instance, path);
+                    MessageBox.Show("Fajl uspesno snimljen");
                 }
                 catch
                 {
                     MessageBox.Show("Fajl nije uspesno snimljen");
-                }
-                finally
-                {
-                    MessageBox.Show("Fajl je uspesno snimljen.");
                 }
             }
         }

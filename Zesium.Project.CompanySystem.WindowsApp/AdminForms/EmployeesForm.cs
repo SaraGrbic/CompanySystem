@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.WindowsApp.Model;
@@ -23,6 +20,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             new Column() {PropertyName="UserType", Title = "Type of user", PropertyType = typeof(UserType) }
         };
 
+        #region Constructors
         public EmployeesForm(): base(columns, false, true, false, true, false)
         {
             var values = new List<User>();
@@ -57,6 +55,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 
             this.Controls.Add(cBoxDepartments);
         }
+        #endregion
 
         #region Actions
         private void CBoxDepartments_SelectionChangeCommitted(object sender, EventArgs e)
@@ -77,7 +76,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             }
             else
             {
-
                 MessageBox.Show("Admin Almighty ne moze biti izmenjen!");
                 CloseDialog();
             }

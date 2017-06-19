@@ -7,7 +7,7 @@ namespace Zesium.Project.CompanySystem.Models.Services
     [Serializable]
     public static class InputServices
     {
-        public static bool SignInSuccessful(string username, string password)
+        public static bool Login(string username, string password)
         {
             foreach(User user in Company.Instance.Users.Values)
             {

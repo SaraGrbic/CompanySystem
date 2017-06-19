@@ -1,5 +1,0 @@
-C:\Users\Coja\Desktop\Zesium\!Obuka\1.Introduction to C# and .Net\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.Models\bin\Debug\Zesium.Project.CompanySystem.Models.dll
-C:\Users\Coja\Desktop\Zesium\!Obuka\1.Introduction to C# and .Net\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.Models\bin\Debug\Zesium.Project.CompanySystem.Models.pdb
-C:\Users\Coja\Desktop\Zesium\!Obuka\1.Introduction to C# and .Net\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.Models\obj\Debug\Zesium.Project.CompanySystem.Models.csprojResolveAssemblyReference.cache
-C:\Users\Coja\Desktop\Zesium\!Obuka\1.Introduction to C# and .Net\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.Models\obj\Debug\Zesium.Project.CompanySystem.Models.dll
-C:\Users\Coja\Desktop\Zesium\!Obuka\1.Introduction to C# and .Net\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.Models\obj\Debug\Zesium.Project.CompanySystem.Models.pdb

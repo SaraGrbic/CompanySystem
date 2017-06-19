@@ -41,9 +41,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
         }
         #endregion
 
-        #region Properties
-        #endregion
-
         #region Actions
         public override void HandleAddEvent() { }
 
@@ -60,9 +57,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
             taskForm.ShowDialog();
             Close();
         }
-        #endregion
-
-        #region Methods
         #endregion
     }
 }

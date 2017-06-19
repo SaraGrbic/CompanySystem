@@ -18,6 +18,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             new Column() {PropertyName="IsDepartmentActive", Title="Active", PropertyType=typeof(bool) }
         };
 
+        #region Constructors
         public DepartmentsForm(): base(columns, true, true, true, false, false)
         {
             var values = new List<Department>();
@@ -29,7 +30,9 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 
             this.Text = "Departments";
         }
+        #endregion
 
+        #region Actions
         public override void HandleAddEvent()
         {
             var addDepartment = new AddDepartmentForm();
@@ -68,6 +71,8 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         public override void HandlePromoteEvent(object selectedItem) { }
 
         public override void HandleTaskEvent(object selectedItem) { }
+        #endregion
+
         #region Methods
         private void CloseDialog()
         {

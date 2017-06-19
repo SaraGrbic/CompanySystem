@@ -40,13 +40,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
         }
         #endregion
 
-        #region Properties
-        #endregion
-
         #region Actions
-        #endregion
-
-        #region Methods
         public override void HandleAddEvent() { }
 
         public override void HandleEditEvent(object selectedItem) { }

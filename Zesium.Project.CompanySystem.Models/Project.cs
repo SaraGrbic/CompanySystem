@@ -9,13 +9,13 @@ namespace Zesium.Project.CompanySystem.Models
         #region Fields
         private string _projectName;
         private int _pojectPrice;
-        private ProjectState _projectState;    //***//
+        private ProjectState _projectState;
         private string _projectDescription;
         private DateTime _projectStartDate;
         private DateTime _projectEndDate;
         private Manager _projectManager;
         private Department _department;
-        private Dictionary<int, Employee> _projectEmployees; //***///
+        private Dictionary<int, Employee> _projectEmployees;
         private Dictionary<int, Task> _projectTasks;
         private int _projectId;
         #endregion

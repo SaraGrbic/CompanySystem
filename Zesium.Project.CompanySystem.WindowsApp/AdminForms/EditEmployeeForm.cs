@@ -9,12 +9,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
     public partial class EditEmployeeForm : Form
     {
         #region Constructors
-        //public EditEmployeeForm()
-        //{
-        //    InitializeComponent();
-        //    SetDepartments();
-        //}
-
         public EditEmployeeForm(User user)
         {
             InitializeComponent();
@@ -27,7 +21,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         #region Properties
         public User SelectedUser { get; set; }
         #endregion
-
 
         #region Actions
         private void cancel_btn_Click(object sender, EventArgs e)
@@ -44,9 +37,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 
                 CloseDialog();
             }
-
-             
-
         }
         #endregion
 
@@ -86,7 +76,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             }
         }
 
-        public Gender GenderChoice()
+        private Gender GenderChoice()
         {
             if (genderMale_rbtn.Checked)
             {
@@ -102,7 +92,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             }
         }
 
-        public void CloseDialog()
+        private void CloseDialog()
         {
             Hide();
             var employeeForm = new EmployeesForm();

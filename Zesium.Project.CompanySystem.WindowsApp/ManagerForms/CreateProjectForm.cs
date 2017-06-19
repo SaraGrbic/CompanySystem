@@ -57,20 +57,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             projectsForm.ShowDialog();
             Close();
         }
-
-        //private int ParsePriceInput(string input)
-        //{
-        //    int projectCost;
-
-        //    if (int.TryParse(input, out projectCost))
-        //    {
-        //        return projectCost;
-        //    }
-        //    else
-        //    {
-        //        return 0;
-        //    }
-        //}
         #endregion
     }
 }

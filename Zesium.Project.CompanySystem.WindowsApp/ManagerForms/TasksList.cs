@@ -44,9 +44,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         }
         #endregion
 
-        #region Properties
-        #endregion
-
         #region Actions
         public override void HandleAddEvent() { }
 

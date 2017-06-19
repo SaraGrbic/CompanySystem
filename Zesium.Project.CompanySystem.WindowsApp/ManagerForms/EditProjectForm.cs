@@ -77,18 +77,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             {
                 rBtnInProgres.Checked = true;
             }
-            //switch (project.ProjectState)
-            //{
-            //    case ProjectState.InProgres:
-            //        rBtnInProgres.Checked = true;
-            //        break;
-            //    case ProjectState.Finished:
-            //        rBtnFinished.Checked = true;
-            //        break;
-            //    case ProjectState.Canceled:
-            //        rBtnCanceled.Checked = true;
-            //        break;
-            //}
         }
 
         private void CloseDialog()

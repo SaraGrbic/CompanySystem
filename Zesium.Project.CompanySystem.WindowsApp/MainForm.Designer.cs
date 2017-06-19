@@ -42,9 +42,9 @@
             this.btnManagers = new System.Windows.Forms.Button();
             this.btnCreateAdmin = new System.Windows.Forms.Button();
             this.menuStripOptions = new System.Windows.Forms.MenuStrip();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveCompanyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.menuStripOptions.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +61,7 @@
             // currentUserDescr_lbl
             // 
             this.currentUserDescr_lbl.AutoSize = true;
-            this.currentUserDescr_lbl.Location = new System.Drawing.Point(262, 19);
+            this.currentUserDescr_lbl.Location = new System.Drawing.Point(166, 13);
             this.currentUserDescr_lbl.Name = "currentUserDescr_lbl";
             this.currentUserDescr_lbl.Size = new System.Drawing.Size(141, 13);
             this.currentUserDescr_lbl.TabIndex = 1;
@@ -70,7 +70,7 @@
             // currentUserName_lbl
             // 
             this.currentUserName_lbl.AutoSize = true;
-            this.currentUserName_lbl.Location = new System.Drawing.Point(409, 20);
+            this.currentUserName_lbl.Location = new System.Drawing.Point(313, 14);
             this.currentUserName_lbl.Name = "currentUserName_lbl";
             this.currentUserName_lbl.Size = new System.Drawing.Size(35, 13);
             this.currentUserName_lbl.TabIndex = 2;
@@ -79,7 +79,7 @@
             // currentUserLastname_lbl
             // 
             this.currentUserLastname_lbl.AutoSize = true;
-            this.currentUserLastname_lbl.Location = new System.Drawing.Point(471, 20);
+            this.currentUserLastname_lbl.Location = new System.Drawing.Point(375, 14);
             this.currentUserLastname_lbl.Name = "currentUserLastname_lbl";
             this.currentUserLastname_lbl.Size = new System.Drawing.Size(35, 13);
             this.currentUserLastname_lbl.TabIndex = 3;
@@ -88,7 +88,7 @@
             // departmentDescr_lbl
             // 
             this.departmentDescr_lbl.AutoSize = true;
-            this.departmentDescr_lbl.Location = new System.Drawing.Point(265, 61);
+            this.departmentDescr_lbl.Location = new System.Drawing.Point(169, 55);
             this.departmentDescr_lbl.Name = "departmentDescr_lbl";
             this.departmentDescr_lbl.Size = new System.Drawing.Size(107, 13);
             this.departmentDescr_lbl.TabIndex = 4;
@@ -97,7 +97,7 @@
             // currentUserDepartment_lbl
             // 
             this.currentUserDepartment_lbl.AutoSize = true;
-            this.currentUserDepartment_lbl.Location = new System.Drawing.Point(378, 61);
+            this.currentUserDepartment_lbl.Location = new System.Drawing.Point(282, 55);
             this.currentUserDepartment_lbl.Name = "currentUserDepartment_lbl";
             this.currentUserDepartment_lbl.Size = new System.Drawing.Size(35, 13);
             this.currentUserDepartment_lbl.TabIndex = 5;

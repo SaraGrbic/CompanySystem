@@ -10,8 +10,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp
         public LoginForm()
         {
             InitializeComponent();
-            //username_txtbx.Text = "admin";
-            //password_txtbx.Text = "admin";
         }
 
         #region Actions
@@ -25,7 +23,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            if (InputServices.SignInSuccessful(username_txtbx.Text, password_txtbx.Text))
+            if (InputServices.Login(username_txtbx.Text, password_txtbx.Text))
             {
                 Hide();
                 var mainForm = new MainForm();
@@ -51,14 +49,11 @@ namespace Zesium.Project.CompanySystem.WindowsApp
                 try
                 {
                     Company.Instance.ReadFromBinary(path);
+                    MessageBox.Show("Fajl uspesno otvoren.");
                 }
                 catch
                 {
                     MessageBox.Show("Fajl ne moze biti otvoren.");
-                }
-                finally
-                {
-                    MessageBox.Show("Uspesno ste otvorili fajl.");
                 }
             }
         }

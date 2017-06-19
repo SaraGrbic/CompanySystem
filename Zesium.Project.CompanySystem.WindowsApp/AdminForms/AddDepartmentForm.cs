@@ -46,8 +46,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
                     ChangeSelectedDepartment(SelectedDepartment);
                     CloseDialog();
                 }
-            }
-             
+            }   
         }
         #endregion
 
@@ -64,7 +63,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             depDescription_txtbx.Text = department.Description;
         }
 
-        public void CloseDialog()
+        private void CloseDialog()
         {
             Hide();
             var departmentForm = new DepartmentsForm();

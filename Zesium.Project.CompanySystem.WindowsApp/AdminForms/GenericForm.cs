@@ -8,15 +8,17 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 {
     public abstract partial class GenericForm<T> : Form
     {
+
+        #region Constructors
         public GenericForm(List<Column> columns,bool isAddButtonVisible, bool isEditButtonVisible, bool isRemoveButtonVisible, bool isPromoteButtonVisible, bool isTaskButtonVisible)
         {
             InitializeComponent();
             InitializeTable(columns);
             InitializeButtons(isAddButtonVisible, isEditButtonVisible, isRemoveButtonVisible, isPromoteButtonVisible, isTaskButtonVisible);
         }
+        #endregion
 
         #region Action
-
         private void back_btn_Click(object sender, System.EventArgs e)
         {
             Hide();
@@ -144,7 +146,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
                 dgvGenericTable.Columns.Add(column);
             } 
         }
-
         #endregion
     }
 }
