@@ -14,7 +14,6 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
 {
     public partial class CreateProjectForm : Form
     {
-
         #region Constructors
         public CreateProjectForm()
         {
@@ -37,7 +36,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             if (InputServices.TextBoxError(txtbxName, errorProvider1) && InputServices.DateTimePickersError(pckrStart, pckrEnd, errorProvider1) && InputServices.TextBoxIntError(txtbxCost, errorProvider1)
                 && InputServices.RichTextBoxError(rtxtbxDescription, errorProvider1))
             {
-                InputServices.CreateProject(txtbxName.Text, int.Parse(txtbxCost.Text), rtxtbxDescription.Text, pckrStart.Value, pckrEnd.Value, (Manager)Company.Instance.CurrentUser, Company.Instance.CurrentUser.Department);
+                HelperClass.AddNewProject(txtbxName.Text, int.Parse(txtbxCost.Text), rtxtbxDescription.Text, pckrStart.Value, pckrEnd.Value);
                 CloseDialog();
             }
         }
@@ -47,7 +46,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         private void SetProfileData()
         {
             lblOwnerName.Text = Company.Instance.CurrentUser.Name;
-            lblOwnerLastname.Text = Company.Instance.CurrentUser.Lastname;
+            lblOwnerLastname.Text = Company.Instance.CurrentUser.LastName;
         }
 
         private void CloseDialog()

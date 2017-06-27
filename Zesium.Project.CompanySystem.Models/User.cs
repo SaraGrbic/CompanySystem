@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.SqlClient;
 
 namespace Zesium.Project.CompanySystem.Models
 {
@@ -9,7 +10,7 @@ namespace Zesium.Project.CompanySystem.Models
         private string _username;
         private string _password;
         private string _name;
-        private string _lastname;
+        private string _lastName;
         private DateTime _dayOfBirth;
         private Gender _gender;
         private int _id;
@@ -23,15 +24,14 @@ namespace Zesium.Project.CompanySystem.Models
 
         }
 
-        public User(string username, string password, string name, string lastname, DateTime dayOfBirth, Gender gender, int id, Department department)
+        public User(string username, string password, string name, string lastName, DateTime dayOfBirth, Gender gender, Department department)
         {
             Username = username;
             Password = password;
             Name = name;
-            Lastname = lastname;
+            LastName = lastName;
             DayOfBirth = dayOfBirth;
             Gender = gender;
-            Id = id;
             Department = department;
         }
         #endregion
@@ -73,15 +73,15 @@ namespace Zesium.Project.CompanySystem.Models
             }
         }
 
-        public string Lastname
+        public string LastName
         {
             get
             {
-                return _lastname;
+                return _lastName;
             }
             set
             {
-                _lastname = value;
+                _lastName = value;
             }
         }
 
@@ -143,6 +143,50 @@ namespace Zesium.Project.CompanySystem.Models
             {
                 _type = value;
             }
+        }
+        #endregion
+
+        #region Methods
+        public void CreateUser(SqlDataReader reader)
+        {
+            Id = Convert.ToInt32(reader["Id"].ToString());
+            Username = reader["Username"].ToString();
+            Password = reader["Password"].ToString();
+            Name = reader["Name"].ToString();
+            LastName = reader["LastName"].ToString();
+            DayOfBirth = Convert.ToDateTime(reader["DayOfBirth"].ToString());
+            if (Convert.ToBoolean(reader["IsGenderMale"].ToString()))
+            {
+                Gender = Gender.Male;
+            }
+            else if (Convert.ToBoolean(reader["IsGenderFemale"].ToString()))
+            {
+                Gender = Gender.Female;
+            }
+            else if (Convert.ToBoolean(reader["IsGenderUnknown"].ToString()))
+            {
+                Gender = Gender.Unknown;
+            }
+
+            Department department = new Department();
+            department.CreateDepartment(reader);
+
+            Department = department;
+
+            switch (Convert.ToInt32(reader["UserTypeId"].ToString()))
+            {
+                case 1: UserType = UserType.Administrator;
+                    break;
+                case 2: UserType = UserType.Employee;
+                    break;
+                case 3: UserType = UserType.Manager;
+                    break;
+            }
+        }
+
+        public override string ToString()
+        {
+            return $"{Name} {LastName}";
         }
         #endregion
     }

@@ -25,16 +25,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
         #region Constructors
         public ManagerList(): base(columns, false, false, false, false, false)
         {
-            var values = new List<User>();
-            foreach (var currentProject in ((Employee)Company.Instance.CurrentUser).EmployeeProjects.Values)
-            { 
-                if (!values.Contains(currentProject.ProjectManager))
-                {
-                    values.Add(currentProject.ProjectManager);
-                }
-            }
-
-            FillTable(values);
+            FillTable(HelperClass.GetEmployeeManagers(Company.Instance.CurrentUser.Id));
 
             this.Text = "My managers";
         }

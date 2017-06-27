@@ -34,20 +34,12 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
             if(InputServices.TextBoxIntError(txtBxEstimatedTime, errorProvider1) && InputServices.TextBoxIntError(txtBxRemainingTime, errorProvider1)
                 && InputServices.RichTextBoxError(rchTxtBxComment, errorProvider1))
             {
-                SelectedTask.EstimatedWorkingTime = int.Parse(txtBxEstimatedTime.Text);
-                SelectedTask.RemainingWorkingTime = int.Parse(txtBxRemainingTime.Text);
-                SelectedTask.TaskComment = rchTxtBxComment.Text;
-                if (rdBtnInProgress.Checked)
+                HelperClass.EditTask(SelectedTask.TaskId, int.Parse(txtBxEstimatedTime.Text), int.Parse(txtBxRemainingTime.Text), TaskStateChoice(), rchTxtBxComment.Text);
+                
+                if (TaskStateChoice() == TaskState.Done)
                 {
-                    SelectedTask.TaskState = TaskState.In_Progres;
+                    HelperClass.UpdateTaskWhenStateChangedToDone(SelectedTask.TaskId);
                 }
-                else if (rdBtnDone.Checked)
-                {
-                    SelectedTask.TaskState = TaskState.Done;
-                    SelectedTask.RemainingWorkingTime = 0;
-                    SelectedTask.TaskEndTime = DateTime.Now;
-                }
-                else { SelectedTask.TaskState = TaskState.To_Do; }
 
                 CloseDialog();
             }
@@ -88,6 +80,22 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
                     break;
             }
             rchTxtBxComment.Text = task.TaskComment;
+        }
+
+        private TaskState TaskStateChoice()
+        {
+            if (rdBtnInProgress.Checked)
+            {
+                return TaskState.In_Progres;
+            }
+            else if (rdBtnDone.Checked)
+            {
+                return TaskState.Done;
+            }
+            else
+            {
+                return TaskState.To_Do;
+            }
         }
         #endregion
     }

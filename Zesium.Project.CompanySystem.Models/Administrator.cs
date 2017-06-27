@@ -11,14 +11,7 @@ namespace Zesium.Project.CompanySystem.Models
         #region Constructors
         public Administrator()
         {
-            Username = "admin";
-            Password = "admin";
-            Name = "Admin";
-            Lastname = "Almighty";
-            DayOfBirth = new DateTime(1900, 01, 01);
-            Gender = Gender.Unknown;
-            Id = 0;
-            UserType = UserType.Administrator;
+            
         }
 
         public Administrator(int id, string username, string password, string name, string lastname, DateTime dayOfBirth, Gender gender)
@@ -27,7 +20,7 @@ namespace Zesium.Project.CompanySystem.Models
             Username = username;
             Password = password;
             Name = name;
-            Lastname = lastname;
+            LastName = lastname;
             DayOfBirth = dayOfBirth;
             Gender = gender;
             Department = Company.Instance.Departments[0];
@@ -41,7 +34,7 @@ namespace Zesium.Project.CompanySystem.Models
         #region Methods
         public override string ToString()
         {
-            return $"{Name} {Lastname}";
+            return $"{Name} {LastName}";
         }
         #endregion
     }

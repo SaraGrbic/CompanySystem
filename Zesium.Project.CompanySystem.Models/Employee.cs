@@ -11,8 +11,8 @@ namespace Zesium.Project.CompanySystem.Models
         #endregion
 
         #region Constructors
-        public Employee(string username, string password, string name, string lastname, DateTime dayOfBirth, Gender gender, int id, Department department)
-            : base (username, password, name, lastname, dayOfBirth, gender, id, department)
+        public Employee(string username, string password, string name, string lastname, DateTime dayOfBirth, Gender gender, Department department)
+            : base (username, password, name, lastname, dayOfBirth, gender, department)
         { 
             EmployeeProjects = new Dictionary<int, Project>();
             UserType = UserType.Employee;
@@ -36,7 +36,7 @@ namespace Zesium.Project.CompanySystem.Models
         #region Methods
         public override string ToString()
         {
-            return $"{Name} {Lastname}";
+            return $"{Name} {LastName}";
         }
         #endregion
     }

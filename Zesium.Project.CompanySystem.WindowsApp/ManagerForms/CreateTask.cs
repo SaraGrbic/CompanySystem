@@ -39,8 +39,8 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             if (InputServices.TextBoxError(txtbxName, errorProvider1) && InputServices.DateTimePickersError(pckrStartTime, pckrEndTime, errorProvider1)
                 && InputServices.RichTextBoxError(rchTxtBxDescription, errorProvider1))
             {
-                InputServices.CreateTask(txtbxName.Text, pckrStartTime.Value, pckrEndTime.Value, rchTxtBxDescription.Text, (Employee)dgvEmployees.CurrentRow.DataBoundItem, SelectedProject);
-                SelectedProject.ProjectState = ProjectState.InProgres;
+                HelperClass.AddNewTask(txtbxName.Text, pckrStartTime.Value, pckrEndTime.Value, rchTxtBxDescription.Text, ((User)dgvEmployees.CurrentRow.DataBoundItem).Id, SelectedProject.ProjectId);
+                HelperClass.UpdateProjectStateAfterCreatingTask(SelectedProject.ProjectId);
                 CloseDialog();
             }
         }
@@ -49,17 +49,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         #region Methods
         private void FillTable()
         {
-            var values = new List<Employee>();
-
-            foreach(var currentuser in Company.Instance.Users.Values)
-            {
-                if (currentuser.Department == Company.Instance.CurrentUser.Department && currentuser.UserType == UserType.Employee)
-                {
-                    values.Add((Employee)currentuser);
-                }
-            }
-
-            dgvEmployees.DataSource = values;
+            dgvEmployees.DataSource = HelperClass.GetAllEmployeesFromManagerDepartment(Company.Instance.CurrentUser.Department.DepartmentId);
         }
 
         private void CloseDialog()

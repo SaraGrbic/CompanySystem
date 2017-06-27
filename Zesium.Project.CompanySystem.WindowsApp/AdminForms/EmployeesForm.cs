@@ -23,13 +23,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         #region Constructors
         public EmployeesForm(): base(columns, false, true, false, true, false)
         {
-            var values = new List<User>();
-            foreach (var item in Company.Instance.Users.Values)
-            {
-                values.Add(item);
-            }
-
-            FillTable(values);
+            FillTable(HelperClass.GetAllUsers());
 
             this.Text = "Employees";
 
@@ -39,7 +33,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             cBoxDepartments.DropDownStyle = ComboBoxStyle.DropDownList;
 
             var listOfDepartmentNames = new List<string>();
-            foreach (var department in Company.Instance.Departments.Values)
+            foreach (var department in HelperClass.GetAllDepartments())
             {
                 if (department.IsDepartmentActive)
                 {
@@ -69,9 +63,9 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 
         public override void HandleEditEvent(object selectedItem)
         {
-            var editEmployeeForm = new EditEmployeeForm(((User)selectedItem));
-            if (((User)selectedItem).Id != 0)
+            if (((User)selectedItem).Id != 1)
             {
+                var editEmployeeForm = new EditEmployeeForm(((User)selectedItem));
                 editEmployeeForm.ShowDialog();
             }
             else

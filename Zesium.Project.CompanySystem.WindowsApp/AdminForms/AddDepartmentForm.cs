@@ -38,7 +38,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             {
                 if (SelectedDepartment == null)
                 {
-                    InputServices.CreateDepartment(depName_txtbx.Text, depDescription_txtbx.Text);
+                    HelperClass.AddNewDepartment(depName_txtbx.Text, depDescription_txtbx.Text);
                     CloseDialog();
                 }
                 else
@@ -53,8 +53,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         #region Methods
         private void ChangeSelectedDepartment(Department department)
         {
-            department.Name = depName_txtbx.Text;
-            department.Description = depDescription_txtbx.Text;
+            HelperClass.EditDepartment(department.DepartmentId, depName_txtbx.Text, depDescription_txtbx.Text);
         }
 
         private void ShowSelectedDepartment(Department department)

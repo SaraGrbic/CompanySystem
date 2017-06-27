@@ -14,10 +14,12 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 {
     public partial class CreateAdminForm : Form
     {
+        #region Constructors
         public CreateAdminForm()
         {
             InitializeComponent();
         }
+        #endregion
 
         #region Actions
         private void btnCreateAdmin_Click(object sender, EventArgs e)
@@ -25,7 +27,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             if (InputServices.TextBoxError(txtbxUsername, errorProvider1) && InputServices.TextBoxError(txtbxPassword, errorProvider1)
                 && InputServices.TextBoxError(txtbxName, errorProvider1) && InputServices.TextBoxError(txtbxLastname, errorProvider1))
             {
-                InputServices.CreateAdmin(txtbxUsername.Text, txtbxPassword.Text, txtbxName.Text, txtbxLastname.Text, pckrDateOfBirth.Value, GenderChoice());
+                HelperClass.CreateAdmin(txtbxUsername.Text, txtbxPassword.Text, txtbxName.Text, txtbxLastname.Text, pckrDateOfBirth.Value, GenderChoice());
                 CloseDialog();
             }
         }

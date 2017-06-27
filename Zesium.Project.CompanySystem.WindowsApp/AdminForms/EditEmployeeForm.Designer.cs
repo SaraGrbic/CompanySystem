@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.name_lbl = new System.Windows.Forms.Label();
             this.cancel_btn = new System.Windows.Forms.Button();
-            this.department_combobx = new System.Windows.Forms.ComboBox();
+            this.cmbbxDepartment = new System.Windows.Forms.ComboBox();
             this.dayOfBirth_pckr = new System.Windows.Forms.DateTimePicker();
             this.department_lbl = new System.Windows.Forms.Label();
             this.genderFemale_rbtn = new System.Windows.Forms.RadioButton();
@@ -65,13 +65,13 @@
             this.cancel_btn.UseVisualStyleBackColor = true;
             this.cancel_btn.Click += new System.EventHandler(this.cancel_btn_Click);
             // 
-            // department_combobx
+            // cmbbxDepartment
             // 
-            this.department_combobx.FormattingEnabled = true;
-            this.department_combobx.Location = new System.Drawing.Point(172, 247);
-            this.department_combobx.Name = "department_combobx";
-            this.department_combobx.Size = new System.Drawing.Size(169, 21);
-            this.department_combobx.TabIndex = 35;
+            this.cmbbxDepartment.FormattingEnabled = true;
+            this.cmbbxDepartment.Location = new System.Drawing.Point(172, 247);
+            this.cmbbxDepartment.Name = "cmbbxDepartment";
+            this.cmbbxDepartment.Size = new System.Drawing.Size(169, 21);
+            this.cmbbxDepartment.TabIndex = 35;
             // 
             // dayOfBirth_pckr
             // 
@@ -172,7 +172,7 @@
             this.ClientSize = new System.Drawing.Size(478, 382);
             this.Controls.Add(this.name_lbl);
             this.Controls.Add(this.cancel_btn);
-            this.Controls.Add(this.department_combobx);
+            this.Controls.Add(this.cmbbxDepartment);
             this.Controls.Add(this.dayOfBirth_pckr);
             this.Controls.Add(this.department_lbl);
             this.Controls.Add(this.genderFemale_rbtn);
@@ -196,7 +196,7 @@
 
         private System.Windows.Forms.Label name_lbl;
         private System.Windows.Forms.Button cancel_btn;
-        private System.Windows.Forms.ComboBox department_combobx;
+        private System.Windows.Forms.ComboBox cmbbxDepartment;
         private System.Windows.Forms.DateTimePicker dayOfBirth_pckr;
         private System.Windows.Forms.Label department_lbl;
         private System.Windows.Forms.RadioButton genderFemale_rbtn;

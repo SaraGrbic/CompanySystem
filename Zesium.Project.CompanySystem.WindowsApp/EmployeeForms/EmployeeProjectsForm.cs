@@ -29,13 +29,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
         #region Constructors
         public EmployeeProjectsForm(): base(columns, false, false, false, false, true)
         {
-            var values = new List<ProjectClass>();
-            foreach (var empolyeeProject in ((Employee)Company.Instance.CurrentUser).EmployeeProjects.Values)
-            {
-                values.Add(empolyeeProject);
-            }
-
-            FillTable(values);
+            FillTable(HelperClass.GetAllProjectsFromEmployee(Company.Instance.CurrentUser.Id));
 
             this.Text = "My projects";
         }

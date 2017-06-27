@@ -8,11 +8,14 @@ namespace Zesium.Project.CompanySystem.WindowsApp
     public partial class CreateAccountForm : Form
     {
 
+        #region Constructors
         public CreateAccountForm()
         {
             InitializeComponent();
             SetDepartments();
         }
+        #endregion
+
         #region Actions
         private void createAccount_btn_Click(object sender, EventArgs e)
         {
@@ -20,9 +23,8 @@ namespace Zesium.Project.CompanySystem.WindowsApp
                 && InputServices.TextBoxError(name_txtbx, errorProvider1) && InputServices.TextBoxError(lastName_txtbx, errorProvider1)
                 && InputServices.ComboBoxError(department_combobx, errorProvider1))
             {
-                DateTime dayOfBirth = dayOfBirth_pckr.Value;
                 Department department = department_combobx.SelectedItem as Department;
-                InputServices.CreateUser(username_txtbx.Text, password_txtbx.Text, name_txtbx.Text, lastName_txtbx.Text, dayOfBirth, GenderChoice(), department);
+                HelperClass.AddNewUser(username_txtbx.Text, password_txtbx.Text, name_txtbx.Text, lastName_txtbx.Text, dayOfBirth_pckr.Value, GenderChoice(), department);
                 Hide();
                 var mainForm = new MainForm();
                 mainForm.ShowDialog();
@@ -42,7 +44,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp
         #region Methods
         private void SetDepartments()
         {
-            foreach (Department department in Company.Instance.Departments.Values)
+            foreach (Department department in HelperClass.GetAllDepartments())
             {
                 if (department.ToString() == "Undefined")
                 {

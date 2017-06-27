@@ -23,7 +23,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            if (InputServices.Login(username_txtbx.Text, password_txtbx.Text))
+            if (HelperClass.Login(username_txtbx.Text, password_txtbx.Text))
             {
                 Hide();
                 var mainForm = new MainForm();

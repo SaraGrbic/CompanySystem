@@ -16,7 +16,7 @@ namespace Zesium.Project.CompanySystem.Models
             Username = user.Username;
             Password = user.Password;
             Name = user.Name;
-            Lastname = user.Lastname;
+            LastName = user.LastName;
             DayOfBirth = user.DayOfBirth;
             Gender = user.Gender;
             Id = user.Id;
@@ -44,7 +44,7 @@ namespace Zesium.Project.CompanySystem.Models
         #region Methods
         public override string ToString()
         {
-            return $"{Name} {Lastname}";
+            return $"{Name} {LastName}";
         }
         #endregion
     }

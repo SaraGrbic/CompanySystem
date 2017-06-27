@@ -27,16 +27,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         #region Constructors
         public ProjectsForm() : base(columns, true, true, false, false, true)
         {
-            var values = new List<ProjectClass>();
-            foreach (var managerProject in Company.Instance.Projects.Values)
-            {
-                if (Company.Instance.CurrentUser == managerProject.ProjectManager)
-                {
-                    values.Add(managerProject);
-                }
-            }
-
-            FillTable(values);
+            FillTable(HelperClass.GetAllProjectsFromManager(Company.Instance.CurrentUser.Id));
 
             this.Text = "My projects";
         }
@@ -45,7 +36,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         #region Actions
         public override void HandleAddEvent()
         {
-            if (Company.Instance.CurrentUser.Department.DepartmentId != 0)
+            if (Company.Instance.CurrentUser.Department.DepartmentId != 1)
             {
                 Hide();
                 var createProject = new CreateProjectForm();

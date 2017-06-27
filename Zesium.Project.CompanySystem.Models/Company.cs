@@ -20,14 +20,14 @@ namespace Zesium.Project.CompanySystem.Models
         #region Constructors
         private Company()
         {
-            Users = new Dictionary<int, User>();
-            Departments = new Dictionary<int, Department>();
-            Department firstDepartment = new Department();
-            Departments.Add(firstDepartment.DepartmentId, firstDepartment);
-            Projects = new Dictionary<int, Project>();
-            Administrator admin = new Administrator();
-            admin.Department = firstDepartment;
-            Users.Add(admin.Id, admin);
+            //Users = new Dictionary<int, User>();
+            //Departments = new Dictionary<int, Department>();
+            //Department firstDepartment = new Department();
+            //Departments.Add(firstDepartment.DepartmentId, firstDepartment);
+            //Projects = new Dictionary<int, Project>();
+            //Administrator admin = new Administrator();
+            //admin.Department = firstDepartment;
+            //Users.Add(admin.Id, admin);
         }
         #endregion
 

@@ -104,7 +104,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp
         private void SetProfileData()
         {
             currentUserName_lbl.Text = Company.Instance.CurrentUser.Name;
-            currentUserLastname_lbl.Text = Company.Instance.CurrentUser.Lastname;
+            currentUserLastname_lbl.Text = Company.Instance.CurrentUser.LastName;
             currentUserDepartment_lbl.Text = Company.Instance.CurrentUser.Department.Name;
         }
 

@@ -12,9 +12,13 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         public EditEmployeeForm(User user)
         {
             InitializeComponent();
-            SetDepartments();
+            SetDepartments(user);
             ShowSelectedUser(user);
             SelectedUser = user;
+            if (user.UserType == UserType.Administrator)
+            {
+                cmbbxDepartment.Visible = false;
+            }
         }
         #endregion
 
@@ -31,7 +35,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         private void editAccount_btn_Click(object sender, EventArgs e)
         {
             if (InputServices.TextBoxError(name_txtbx, errorProvider1) && InputServices.TextBoxError(lastName_txtbx, errorProvider1)
-                && InputServices.ComboBoxError(department_combobx, errorProvider1))
+                && InputServices.ComboBoxError(cmbbxDepartment, errorProvider1))
             {
                 ChangeSelectedUser(SelectedUser);
 
@@ -43,17 +47,13 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         #region Methods
         private void ChangeSelectedUser(User user)
         {
-            user.Name = name_txtbx.Text;
-            user.Lastname = lastName_txtbx.Text;
-            user.DayOfBirth = dayOfBirth_pckr.Value;
-            user.Gender = GenderChoice();
-            user.Department = department_combobx.SelectedItem as Department;
+            HelperClass.EditUser(user.Id, name_txtbx.Text, lastName_txtbx.Text, dayOfBirth_pckr.Value, GenderChoice(), cmbbxDepartment.SelectedItem as Department);
         }
 
         private void ShowSelectedUser(User user)
         {
             name_txtbx.Text = user.Name;
-            lastName_txtbx.Text = user.Lastname;
+            lastName_txtbx.Text = user.LastName;
             dayOfBirth_pckr.Value = user.DayOfBirth;
             switch(user.Gender)
             {
@@ -62,16 +62,21 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
                 case Gender.Female: genderFemale_rbtn.Checked = true;
                     break;
             }
-            department_combobx.SelectedItem = user.Department;
         }
         
-        private void SetDepartments()
+        private void SetDepartments(User user)
         {
-            foreach (Department department in Company.Instance.Departments.Values)
+            foreach (Department department in HelperClass.GetAllDepartments())
             {
                 if (department.IsDepartmentActive == true)
                 {
-                    department_combobx.Items.Add(department);
+                    cmbbxDepartment.Items.Add(department);
+
+                    if (user.Department.DepartmentId == department.DepartmentId)
+                    {
+                        cmbbxDepartment.SelectedItem = department;
+                    }
+
                 }
             }
         }

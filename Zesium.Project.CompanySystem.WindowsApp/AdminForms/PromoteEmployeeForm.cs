@@ -38,9 +38,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         {
             if (InputServices.ComboBoxError(cmbbxDepartments, errorProvider1))
             {
-                var newManager = new Manager(SelectedUser, cmbbxDepartments.SelectedItem as Department);
-                Company.Instance.Users.Remove(SelectedUser.Id);
-                Company.Instance.Users.Add(newManager.Id, newManager);
+                HelperClass.PromoteEmployeeToManager(SelectedUser.Id, cmbbxDepartments.SelectedItem as Department);
                 CloseDialog();
             }
         }
@@ -57,9 +55,9 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 
         private void SetDepartments()
         {
-            foreach (Department department in Company.Instance.Departments.Values)
+            foreach (Department department in HelperClass.GetAllDepartments())
             {
-                if (department.IsDepartmentActive == true)
+                if (department.IsDepartmentActive == true && !department.Name.Equals("Undefined"))
                 {
                     cmbbxDepartments.Items.Add(department);
                 }

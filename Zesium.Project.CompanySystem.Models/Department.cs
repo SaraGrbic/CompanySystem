@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.SqlClient;
 using Zesium.Project.CompanySystem.Models.Services;
 
 namespace Zesium.Project.CompanySystem.Models
@@ -14,9 +15,8 @@ namespace Zesium.Project.CompanySystem.Models
         #endregion
 
         #region Constructors
-        public Department(int id, string name, string description)
+        public Department(string name, string description)
         {
-            DepartmentId = id;
             Name = name;
             Description = description;
             IsDepartmentActive = true;
@@ -24,10 +24,10 @@ namespace Zesium.Project.CompanySystem.Models
 
         public Department()
         {
-            Name = "Undefined";
-            Description = "Departman koji uvek postoji i ne moze da se obrise";
-            IsDepartmentActive = true;
-            DepartmentId = 0;
+            //Name = "Undefined";
+            //Description = "Departman koji uvek postoji i ne moze da se obrise";
+            //IsDepartmentActive = true;
+            //DepartmentId = 0;
         }
         #endregion
 
@@ -85,6 +85,14 @@ namespace Zesium.Project.CompanySystem.Models
         public override string ToString()
         {
             return Name;
+        }
+
+        public void CreateDepartment(SqlDataReader reader)
+        {
+            DepartmentId = Convert.ToInt32(reader["DepartmentId"].ToString());
+            Name = reader["DepartmentName"].ToString();
+            Description = reader["DepartmentDescription"].ToString();
+            IsDepartmentActive = Convert.ToBoolean(reader["IsDepartmantActive"]);
         }
         #endregion
     }

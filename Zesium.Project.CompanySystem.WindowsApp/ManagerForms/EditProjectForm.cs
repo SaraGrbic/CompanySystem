@@ -32,24 +32,12 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             if(InputServices.TextBoxError(txtbxName, errorProvider1) && InputServices.TextBoxIntError(txtbxCost, errorProvider1)
                 && InputServices.RichTextBoxError(rtxtbxDescription, errorProvider1))
             {
+                HelperClass.EditProject(SelectedProject.ProjectId, txtbxName.Text, int.Parse(txtbxCost.Text), rtxtbxDescription.Text, ProjectStateChoice());
 
-                SelectedProject.ProjectName = txtbxName.Text;
-                SelectedProject.ProjectPrice = int.Parse(txtbxCost.Text);
-                SelectedProject.ProjectDescription = rtxtbxDescription.Text;
-                if (rBtnInProgres.Checked == true)
+                if(ProjectStateChoice() == ProjectState.Canceled)
                 {
-                    SelectedProject.ProjectState = ProjectState.InProgres;
+                    HelperClass.UpdateTasksWhenProjectIsCanceled(SelectedProject.ProjectId);
                 }
-                else if (rBtnFinished.Checked == true)
-                {
-                    SelectedProject.ProjectState = ProjectState.Finished;
-                }
-                else if (rBtnCanceled.Checked == true)
-                {
-                    SelectedProject.ProjectState = ProjectState.Canceled;
-                    ProjectCancelation(SelectedProject);
-                }
-                else SelectedProject.ProjectState = ProjectState.New;
 
                 CloseDialog();
             }
@@ -69,7 +57,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         private void ShowSelectedProject(ProjectClass project)
         {
             lblOwnerName.Text = Company.Instance.CurrentUser.Name;
-            lblOwnerLastname.Text = Company.Instance.CurrentUser.Lastname;
+            lblOwnerLastname.Text = Company.Instance.CurrentUser.LastName;
             txtbxName.Text = project.ProjectName;
             txtbxCost.Text = project.ProjectPrice.ToString();
             rtxtbxDescription.Text = project.ProjectDescription;
@@ -87,19 +75,29 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             Close();
         }
 
-        private void ProjectCancelation(ProjectClass project)
+        private ProjectState ProjectStateChoice()
         {
-            foreach(var currentTask in project.ProjectTasks.Values)
+            if (rBtnInProgres.Checked)
             {
-                currentTask.TaskState = TaskState.Canceled;
-                currentTask.TaskEndTime = DateTime.Now;
-                currentTask.RemainingWorkingTime = 0;
+                return ProjectState.InProgres;
+            }
+            else if (rBtnFinished.Checked)
+            {
+                return ProjectState.Finished;
+            }
+            else if (rBtnCanceled.Checked)
+            {
+                return ProjectState.Canceled;
+            }
+            else
+            {
+                return ProjectState.New;
             }
         }
 
         private bool AreAllTasksDone()
         {
-            foreach(TaskClass task in SelectedProject.ProjectTasks.Values)
+            foreach (TaskClass task in HelperClass.GetAllTasksForSelectedProject(SelectedProject.ProjectId))
             {
                 if (task.TaskState != TaskState.Done)
                 {

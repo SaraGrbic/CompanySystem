@@ -29,16 +29,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         #region Constructors
         public TasksList() : base(columns, false, false, false, false, false)
         {
-            var values = new List<TaskClass>();
-            foreach (var currentProject in ((Manager)Company.Instance.CurrentUser).ManagerProjects.Values)
-            {
-                foreach (var currentTask in currentProject.ProjectTasks.Values)
-                {
-                    values.Add(currentTask);
-                }
-            }
-
-            FillTable(values);
+            FillTable(HelperClass.GetAllTasksFromManager(Company.Instance.CurrentUser.Id));
 
             this.Text = "Tasks";
         }

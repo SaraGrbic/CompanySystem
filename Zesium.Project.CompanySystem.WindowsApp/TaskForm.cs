@@ -21,7 +21,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp
             new Column() {PropertyName="TaskEndTime", Title="End time", PropertyType=typeof(DateTime) },
             new Column() {PropertyName="EstimatedWorkingTime", Title="Estimated working time", PropertyType=typeof(string) },
             new Column() {PropertyName="RemainingWorkingTime", Title="Remaining working time", PropertyType=typeof(string) },
-            new Column() {PropertyName="TasksEmployee", Title = "Assigned employee", PropertyType = typeof(Employee) },
+            new Column() {PropertyName="TasksEmployee", Title = "Assigned employee", PropertyType = typeof(string) },
             new Column() {PropertyName="TaskDescription", Title="Description", PropertyType=typeof(string) },
             new Column() { PropertyName = "TaskComment", Title = "Comment", PropertyType = typeof(string) },
             new Column() { PropertyName = "TasksProject", Title = "Project", PropertyType = typeof(string) }
@@ -30,13 +30,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp
         #region Constructors
         public TaskForm(ProjectClass selectedProject) : base(columns, true, false, false, false, false)
         {
-            var values = new List<TaskClass>();
-            foreach (var currentTask in selectedProject.ProjectTasks.Values)
-            {
-                values.Add(currentTask);
-            }
-
-            FillTable(values);
+            FillTable(HelperClass.GetAllTasksForSelectedProject(selectedProject.ProjectId));
 
             SelectedProject = selectedProject;
 
