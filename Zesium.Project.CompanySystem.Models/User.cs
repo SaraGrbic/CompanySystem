@@ -1,193 +1,42 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.SqlClient;
+using System.Linq;
 
 namespace Zesium.Project.CompanySystem.Models
 {
-    [Serializable]
-    public class User
+   
+    public class User:Entity
     {
-        #region Fields
-        private string _username;
-        private string _password;
-        private string _name;
-        private string _lastName;
-        private DateTime _dayOfBirth;
-        private Gender _gender;
-        private int _id;
-        private Department _department;
-        private UserType _type;
-        #endregion
+       
+        public string Username { get; set; }
 
-        #region Constructors
-        public User()
-        {
+        public string Password { get; set; }
 
-        }
+        public string Name { get; set; }
 
-        public User(string username, string password, string name, string lastName, DateTime dayOfBirth, Gender gender, Department department)
-        {
-            Username = username;
-            Password = password;
-            Name = name;
-            LastName = lastName;
-            DayOfBirth = dayOfBirth;
-            Gender = gender;
-            Department = department;
-        }
-        #endregion
+        public string LastName { get; set; }
 
-        #region Properties
-        public string Username
-        {
-            get
-            {
-                return _username;
-            }
-            set
-            {
-                _username = value;
-            }
-        }
+        public DateTime DayOfBirth { get; set; }
 
-        public string Password
-        {
-            get
-            {
-                return _password;
-            }
-            set
-            {
-                _password = value;
-            }
-        }
+        public Gender Gender { get; set; } 
 
-        public string Name
-        {
-            get
-            {
-                return _name;
-            }
-            set
-            {
-                _name = value;
-            }
-        }
+        public int? DepartmentId { get; set; }
 
-        public string LastName
-        {
-            get
-            {
-                return _lastName;
-            }
-            set
-            {
-                _lastName = value;
-            }
-        }
+        public virtual Department Department { get; set; }
 
-        public DateTime DayOfBirth
-        {
-            get
-            {
-                return _dayOfBirth;
-            }
-            set
-            {
-                _dayOfBirth = value;
-            }
-        }
+        public UserType UserType { get; set; }
 
-        public Gender Gender
-        {
-            get
-            {
-                return _gender;
-            }
-            set
-            {
-                _gender = value;
-            }
-        }
+        public virtual ICollection<Project> EmployeeProjects { get; set; }
+        public virtual ICollection<Project> ManagerProjects { get; set; }
+        public virtual ICollection<Department> ManagerDepartmants { get; set; }
 
-        public int Id
-        {
-            get
-            {
-                return _id;
-            }
-            set
-            {
-                _id = value;
-            }
-        }
-
-        public Department Department
-        {
-            get
-            {
-                return _department;
-            }
-            set
-            {
-                _department = value;
-            }
-        }
-
-        public UserType UserType
-        {
-            get
-            {
-                return _type;
-            }
-            set
-            {
-                _type = value;
-            }
-        }
-        #endregion
-
-        #region Methods
-        public void CreateUser(SqlDataReader reader)
-        {
-            Id = Convert.ToInt32(reader["Id"].ToString());
-            Username = reader["Username"].ToString();
-            Password = reader["Password"].ToString();
-            Name = reader["Name"].ToString();
-            LastName = reader["LastName"].ToString();
-            DayOfBirth = Convert.ToDateTime(reader["DayOfBirth"].ToString());
-            if (Convert.ToBoolean(reader["IsGenderMale"].ToString()))
-            {
-                Gender = Gender.Male;
-            }
-            else if (Convert.ToBoolean(reader["IsGenderFemale"].ToString()))
-            {
-                Gender = Gender.Female;
-            }
-            else if (Convert.ToBoolean(reader["IsGenderUnknown"].ToString()))
-            {
-                Gender = Gender.Unknown;
-            }
-
-            Department department = new Department();
-            department.CreateDepartment(reader);
-
-            Department = department;
-
-            switch (Convert.ToInt32(reader["UserTypeId"].ToString()))
-            {
-                case 1: UserType = UserType.Administrator;
-                    break;
-                case 2: UserType = UserType.Employee;
-                    break;
-                case 3: UserType = UserType.Manager;
-                    break;
-            }
-        }
-
+        public Department ManagerDepartmant => ManagerDepartmants.FirstOrDefault();
         public override string ToString()
         {
             return $"{Name} {LastName}";
         }
-        #endregion
+
     }
 }

@@ -1,43 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Zesium.Project.CompanySystem.Models
 {
-    [Serializable]
-    public class Employee : User
+   public class Employee:User
     {
-        #region Fields
-        private Dictionary<int, Project> _employeeProjects;
-        #endregion
-
-        #region Constructors
-        public Employee(string username, string password, string name, string lastname, DateTime dayOfBirth, Gender gender, Department department)
-            : base (username, password, name, lastname, dayOfBirth, gender, department)
-        { 
-            EmployeeProjects = new Dictionary<int, Project>();
-            UserType = UserType.Employee;
-        }
-        #endregion
-
-        #region Properties
-        public Dictionary<int, Project> EmployeeProjects
-        {
-            get
-            {
-                return _employeeProjects;
-            }
-            set
-            {
-                _employeeProjects = value;
-            }
-        }
-        #endregion
-
-        #region Methods
-        public override string ToString()
-        {
-            return $"{Name} {LastName}";
-        }
-        #endregion
     }
 }

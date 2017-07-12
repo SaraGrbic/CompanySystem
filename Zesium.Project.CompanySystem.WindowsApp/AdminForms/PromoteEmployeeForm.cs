@@ -9,12 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.Models.Services;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 {
     public partial class PromoteEmployeeForm : Form
     {
-
+        private CompanySystemService companyService = new CompanySystemService();
+        private EmployeeService employeeService = new EmployeeService();
         #region Constructors
         public PromoteEmployeeForm(User user)
         {
@@ -38,7 +40,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         {
             if (InputServices.ComboBoxError(cmbbxDepartments, errorProvider1))
             {
-                HelperClass.PromoteEmployeeToManager(SelectedUser.Id, cmbbxDepartments.SelectedItem as Department);
+                employeeService.PromoteEmployeeToManager(SelectedUser.Id, cmbbxDepartments.SelectedItem as Department);
                 CloseDialog();
             }
         }
@@ -55,7 +57,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 
         private void SetDepartments()
         {
-            foreach (Department department in HelperClass.GetAllDepartments())
+            foreach (Department department in companyService.GetAllDepartments())
             {
                 if (department.IsDepartmentActive == true && !department.Name.Equals("Undefined"))
                 {

@@ -11,11 +11,14 @@ using ProjectClass = Zesium.Project.CompanySystem.Models.Project;
 using TaskClass = Zesium.Project.CompanySystem.Models.Task;
 using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.Models.Services;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
 {
     public partial class EditTaskForm : Form
     {
+        private TaskService taskService = new TaskService();
+        private CompanySystemService companyService = new CompanySystemService();
 
         #region Constructors
         public EditTaskForm(TaskClass task, ProjectClass project)
@@ -34,11 +37,11 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
             if(InputServices.TextBoxIntError(txtBxEstimatedTime, errorProvider1) && InputServices.TextBoxIntError(txtBxRemainingTime, errorProvider1)
                 && InputServices.RichTextBoxError(rchTxtBxComment, errorProvider1))
             {
-                HelperClass.EditTask(SelectedTask.TaskId, int.Parse(txtBxEstimatedTime.Text), int.Parse(txtBxRemainingTime.Text), TaskStateChoice(), rchTxtBxComment.Text);
+                taskService.EditTask(SelectedTask.Id, int.Parse(txtBxEstimatedTime.Text), int.Parse(txtBxRemainingTime.Text), TaskStateChoice(), rchTxtBxComment.Text);
                 
                 if (TaskStateChoice() == TaskState.Done)
                 {
-                    HelperClass.UpdateTaskWhenStateChangedToDone(SelectedTask.TaskId);
+                    taskService.UpdateTaskWhenStateChangedToDone(SelectedTask.Id);
                 }
 
                 CloseDialog();

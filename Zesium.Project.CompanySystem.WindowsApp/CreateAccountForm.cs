@@ -2,11 +2,14 @@
 using System.Windows.Forms;
 using Zesium.Project.CompanySystem.Models.Services;
 using Zesium.Project.CompanySystem.Models;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp
 {
     public partial class CreateAccountForm : Form
     {
+        private CompanySystemService companyService = new CompanySystemService();
+        private AccountService accountService = new AccountService();
 
         #region Constructors
         public CreateAccountForm()
@@ -24,7 +27,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp
                 && InputServices.ComboBoxError(department_combobx, errorProvider1))
             {
                 Department department = department_combobx.SelectedItem as Department;
-                HelperClass.AddNewUser(username_txtbx.Text, password_txtbx.Text, name_txtbx.Text, lastName_txtbx.Text, dayOfBirth_pckr.Value, GenderChoice(), department);
+                accountService.AddNewUser(username_txtbx.Text, password_txtbx.Text, name_txtbx.Text, lastName_txtbx.Text, dayOfBirth_pckr.Value, GenderChoice(), department);
                 Hide();
                 var mainForm = new MainForm();
                 mainForm.ShowDialog();
@@ -44,7 +47,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp
         #region Methods
         private void SetDepartments()
         {
-            foreach (Department department in HelperClass.GetAllDepartments())
+            foreach (Department department in companyService.GetAllDepartments())
             {
                 if (department.ToString() == "Undefined")
                 {

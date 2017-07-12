@@ -7,11 +7,14 @@ using Zesium.Project.CompanySystem.WindowsApp.ManagerForms;
 using Zesium.Project.CompanySystem.WindowsApp.Model;
 using ProjectClass = Zesium.Project.CompanySystem.Models.Project;
 using TaskClass = Zesium.Project.CompanySystem.Models.Task;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
 {
     public class EmployeeTasksForm : GenericForm<TaskClass>
     {
+        private CompanySystemService companyService = new CompanySystemService();
+        private TaskService taskService = new TaskService();
         private static List<Column> columns = new List<Column>
         {
             new Column() {PropertyName="TaskId", Title="ID", PropertyType=typeof(string) },
@@ -30,7 +33,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
         #region Constructors
         public EmployeeTasksForm(ProjectClass project) : base(columns, false, true, false, false, false)
         {
-            FillTable(HelperClass.GetEmployeeTasksForSelectedProject(Company.Instance.CurrentUser.Id, project.ProjectId));
+            FillTable(taskService.GetEmployeeTasksForSelectedProject(Company.Instance.CurrentUser.Id, project.Id));
 
             SelectedProject = project;
 

@@ -2,7 +2,8 @@
 
 namespace Zesium.Project.CompanySystem.Models
 {
-    [Serializable]
+
+
     public enum  TaskState
     {
         To_Do,

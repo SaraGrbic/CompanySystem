@@ -7,11 +7,14 @@ using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.WindowsApp.AdminForms;
 using Zesium.Project.CompanySystem.WindowsApp.Model;
 using ProjectClass = Zesium.Project.CompanySystem.Models.Project;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
 {
     public class EmployeeProjectsForm : GenericForm<ProjectClass>
     {
+        private CompanySystemService companyService = new CompanySystemService();
+        private EmployeeService employeeService = new EmployeeService();
         private static List<Column> columns = new List<Column>
         {
             new Column() {PropertyName="ProjectId", Title="ID", PropertyType=typeof(string) },
@@ -29,7 +32,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
         #region Constructors
         public EmployeeProjectsForm(): base(columns, false, false, false, false, true)
         {
-            FillTable(HelperClass.GetAllProjectsFromEmployee(Company.Instance.CurrentUser.Id));
+            FillTable(employeeService.GetAllProjectsFromEmployee(Company.Instance.CurrentUser.Id));
 
             this.Text = "My projects";
         }

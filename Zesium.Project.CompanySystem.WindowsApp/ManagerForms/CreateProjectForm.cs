@@ -9,11 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.Models.Services;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
 {
     public partial class CreateProjectForm : Form
     {
+        private CompanySystemService companyService = new CompanySystemService();
+        private ProjectService projectService = new ProjectService();
         #region Constructors
         public CreateProjectForm()
         {
@@ -36,7 +39,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             if (InputServices.TextBoxError(txtbxName, errorProvider1) && InputServices.DateTimePickersError(pckrStart, pckrEnd, errorProvider1) && InputServices.TextBoxIntError(txtbxCost, errorProvider1)
                 && InputServices.RichTextBoxError(rtxtbxDescription, errorProvider1))
             {
-                HelperClass.AddNewProject(txtbxName.Text, int.Parse(txtbxCost.Text), rtxtbxDescription.Text, pckrStart.Value, pckrEnd.Value);
+                projectService.AddNewProject(txtbxName.Text, int.Parse(txtbxCost.Text), rtxtbxDescription.Text, pckrStart.Value, pckrEnd.Value);
                 CloseDialog();
             }
         }

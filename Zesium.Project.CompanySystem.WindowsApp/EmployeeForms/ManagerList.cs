@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 using Zesium.Project.CompanySystem.WindowsApp.AdminForms;
 using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.WindowsApp.Model;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
 {
     class ManagerList : GenericForm<User>
     {
+        private CompanySystemService companyService = new CompanySystemService();
+        private EmployeeService employeeService = new EmployeeService();
         private static List<Column> columns = new List<Column>
         {
             new Column() {PropertyName="Id", Title="ID", PropertyType=typeof(string) },
@@ -25,7 +28,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.EmployeeForms
         #region Constructors
         public ManagerList(): base(columns, false, false, false, false, false)
         {
-            FillTable(HelperClass.GetEmployeeManagers(Company.Instance.CurrentUser.Id));
+            FillTable(employeeService.GetEmployeeManagers(Company.Instance.CurrentUser.Id));
 
             this.Text = "My managers";
         }

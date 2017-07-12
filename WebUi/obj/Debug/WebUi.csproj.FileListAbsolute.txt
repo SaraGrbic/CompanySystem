@@ -1,0 +1,496 @@
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\ApplicationInsights.config
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.exe
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.exe.config
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.rsp
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csi.exe
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csi.rsp
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.AppContext.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Collections.Immutable.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.IO.FileSystem.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Reflection.Metadata.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.exe
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.exe.config
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.rsp
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\VBCSCompiler.exe
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\VBCSCompiler.exe.config
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.dll.config
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.pdb
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Antlr3.Runtime.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.DependencyCollector.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Web.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.WindowsServer.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.ApplicationInsights.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Web.Infrastructure.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Newtonsoft.Json.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Helpers.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Mvc.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Optimization.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Razor.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Deployment.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Razor.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebGrease.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Helpers.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Mvc.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Optimization.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Razor.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Deployment.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Razor.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Antlr3.Runtime.pdb
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Newtonsoft.Json.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.ApplicationInsights.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.DependencyCollector.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.WindowsServer.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Web.xml
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.csprojResolveAssemblyReference.cache
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.pdb
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.Models.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.dll
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.pdb
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.dll.config
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.Models.pdb
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.pdb
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.dll.config
+E:\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\ApplicationInsights.config
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.exe
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.exe.config
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.rsp
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csi.exe
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csi.rsp
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.AppContext.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.exe
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.exe.config
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.rsp
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\VBCSCompiler.exe
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.dll.config
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Antlr3.Runtime.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Web.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Newtonsoft.Json.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Helpers.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Mvc.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Optimization.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Razor.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Razor.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebGrease.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.Models.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.dll.config
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.Models.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Helpers.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Mvc.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Optimization.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Razor.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Razor.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Antlr3.Runtime.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Newtonsoft.Json.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Web.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.dll.config
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.csprojResolveAssemblyReference.cache
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.SqlServer.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.SqlServer.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\ApplicationInsights.config
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.exe
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.exe.config
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.rsp
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csi.exe
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csi.rsp
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.AppContext.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Collections.Immutable.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.IO.FileSystem.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Reflection.Metadata.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.exe
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.exe.config
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.rsp
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\VBCSCompiler.exe
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\VBCSCompiler.exe.config
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.dll.config
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.pdb
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Antlr3.Runtime.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.SqlServer.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.DependencyCollector.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Web.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.WindowsServer.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.ApplicationInsights.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Web.Infrastructure.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Newtonsoft.Json.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Helpers.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Mvc.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Optimization.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Razor.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Deployment.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Razor.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebGrease.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.Models.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.pdb
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.Models.pdb
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.SqlServer.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Helpers.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Mvc.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Optimization.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Razor.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Deployment.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Razor.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Antlr3.Runtime.pdb
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Newtonsoft.Json.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.ApplicationInsights.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.DependencyCollector.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.WindowsServer.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Web.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.pdb
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.csprojResolveAssemblyReference.cache
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.csprojResolveAssemblyReference.cache
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\ApplicationInsights.config
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.exe
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.exe.config
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.rsp
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csi.exe
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csi.rsp
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.AppContext.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.exe
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.exe.config
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.rsp
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.dll.config
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Antlr3.Runtime.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.SqlServer.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Web.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Newtonsoft.Json.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Helpers.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Mvc.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Optimization.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Razor.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebGrease.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.Models.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.Models.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.SqlServer.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Helpers.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Mvc.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Optimization.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Razor.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Antlr3.Runtime.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Newtonsoft.Json.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Web.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\FluentScheduler.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\FluentScheduler.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\FluentScheduler.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.csprojResolveAssemblyReference.cache
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\ApplicationInsights.config
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.exe
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.exe.config
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.rsp
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csi.exe
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csi.rsp
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.AppContext.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.exe
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.exe.config
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.rsp
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\VBCSCompiler.exe
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.dll.config
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Antlr3.Runtime.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.SqlServer.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\FluentScheduler.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Web.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Newtonsoft.Json.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Helpers.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Mvc.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Optimization.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Razor.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Razor.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebActivatorEx.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebGrease.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.Models.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.dll
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.dll.config
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.Models.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.SqlServer.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\FluentScheduler.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\FluentScheduler.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Helpers.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Mvc.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Optimization.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Razor.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Razor.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Antlr3.Runtime.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Newtonsoft.Json.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Web.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.pdb
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.dll.config
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\ApplicationInsights.config
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.exe
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.exe.config
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csc.rsp
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csi.exe
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\csi.rsp
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.AppContext.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.exe
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.exe.config
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\vbc.rsp
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.dll.config
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebUi.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Antlr3.Runtime.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.SqlServer.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Web.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Newtonsoft.Json.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Helpers.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Mvc.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Optimization.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Razor.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebActivatorEx.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\WebGrease.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.Models.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.BussinesLaye.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.Models.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\EntityFramework.SqlServer.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Helpers.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Mvc.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Optimization.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.Razor.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Antlr3.Runtime.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Newtonsoft.Json.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Microsoft.AI.Web.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\bin\Zesium.Project.CompanySystem.DAL.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.csprojResolveAssemblyReference.cache
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\WebUi\obj\Debug\WebUi.pdb

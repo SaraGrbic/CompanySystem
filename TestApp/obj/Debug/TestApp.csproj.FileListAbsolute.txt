@@ -1,0 +1,14 @@
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\bin\Debug\TestApp.exe.config
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\bin\Debug\TestApp.exe
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\bin\Debug\TestApp.pdb
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\bin\Debug\EntityFramework.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\bin\Debug\EntityFramework.SqlServer.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\bin\Debug\Zesium.Project.CompanySystem.DAL.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\bin\Debug\Zesium.Project.CompanySystem.Models.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\bin\Debug\Zesium.Project.CompanySystem.DAL.pdb
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\bin\Debug\Zesium.Project.CompanySystem.Models.pdb
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\bin\Debug\EntityFramework.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\bin\Debug\EntityFramework.SqlServer.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\obj\Debug\TestApp.exe
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Zesium.Project.CompanySystem\TestApp\obj\Debug\TestApp.pdb

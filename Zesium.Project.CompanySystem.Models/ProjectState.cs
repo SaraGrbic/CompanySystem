@@ -2,7 +2,7 @@
 
 namespace Zesium.Project.CompanySystem.Models
 {
-    [Serializable]
+  
     public enum ProjectState
     {
         New,

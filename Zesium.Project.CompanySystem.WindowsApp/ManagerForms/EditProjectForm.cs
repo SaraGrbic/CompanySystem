@@ -11,11 +11,14 @@ using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.Models.Services;
 using ProjectClass = Zesium.Project.CompanySystem.Models.Project;
 using TaskClass = Zesium.Project.CompanySystem.Models.Task;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
 {
     public partial class EditProjectForm : Form
     {
+        private ProjectService projectService = new ProjectService();
+        private TaskService taskService = new TaskService();
         #region Constructors
         public EditProjectForm(ProjectClass project)
         {
@@ -32,11 +35,11 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
             if(InputServices.TextBoxError(txtbxName, errorProvider1) && InputServices.TextBoxIntError(txtbxCost, errorProvider1)
                 && InputServices.RichTextBoxError(rtxtbxDescription, errorProvider1))
             {
-                HelperClass.EditProject(SelectedProject.ProjectId, txtbxName.Text, int.Parse(txtbxCost.Text), rtxtbxDescription.Text, ProjectStateChoice());
+                projectService.EditProject(SelectedProject.Id, txtbxName.Text, int.Parse(txtbxCost.Text), rtxtbxDescription.Text, ProjectStateChoice());
 
                 if(ProjectStateChoice() == ProjectState.Canceled)
                 {
-                    HelperClass.UpdateTasksWhenProjectIsCanceled(SelectedProject.ProjectId);
+                    taskService.UpdateTasksWhenProjectIsCanceled(SelectedProject.Id);
                 }
 
                 CloseDialog();
@@ -97,7 +100,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
 
         private bool AreAllTasksDone()
         {
-            foreach (TaskClass task in HelperClass.GetAllTasksForSelectedProject(SelectedProject.ProjectId))
+            foreach (TaskClass task in taskService.GetAllTasksForSelectedProject(SelectedProject.Id))
             {
                 if (task.TaskState != TaskState.Done)
                 {

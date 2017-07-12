@@ -5,11 +5,14 @@ using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.WindowsApp.AdminForms;
 using Zesium.Project.CompanySystem.WindowsApp.Model;
 using ProjectClass = Zesium.Project.CompanySystem.Models.Project;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
 {
     class ProjectsForm : GenericForm<ProjectClass>
     {
+        private CompanySystemService companyService = new CompanySystemService();
+        private ProjectService projectService = new ProjectService();
         private static List<Column> columns = new List<Column>
         {
             new Column() {PropertyName="ProjectId", Title="ID", PropertyType=typeof(string) },
@@ -27,7 +30,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         #region Constructors
         public ProjectsForm() : base(columns, true, true, false, false, true)
         {
-            FillTable(HelperClass.GetAllProjectsFromManager(Company.Instance.CurrentUser.Id));
+            FillTable(projectService.GetAllProjectsFromManager(Company.Instance.CurrentUser.Id));
 
             this.Text = "My projects";
         }
@@ -36,7 +39,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.ManagerForms
         #region Actions
         public override void HandleAddEvent()
         {
-            if (Company.Instance.CurrentUser.Department.DepartmentId != 1)
+            if (Company.Instance.CurrentUser.Department.Id != 1)
             {
                 Hide();
                 var createProject = new CreateProjectForm();

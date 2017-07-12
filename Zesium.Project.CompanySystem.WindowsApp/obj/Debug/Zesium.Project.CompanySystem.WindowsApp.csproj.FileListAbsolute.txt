@@ -1,0 +1,95 @@
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.WindowsApp.exe.config
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.csprojResolveAssemblyReference.cache
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.AddDepartmentForm.resources
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.CreateAdminForm.resources
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.GenericForm.resources
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.EditEmployeeForm.resources
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.PromoteEmployeeForm.resources
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.CreateAccountForm.resources
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.EmployeeForms.EditTaskForm.resources
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.LoginForm.resources
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.MainForm.resources
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.CreateProjectForm.resources
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.CreateTask.resources
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.EditProjectForm.resources
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.Properties.Resources.resources
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.csproj.GenerateResource.Cache
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.WindowsApp.exe
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.WindowsApp.pdb
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\EntityFramework.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\EntityFramework.SqlServer.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.BussinesLaye.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.DAL.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.Models.dll
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.BussinesLaye.pdb
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.DAL.pdb
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.Models.pdb
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\EntityFramework.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\EntityFramework.SqlServer.xml
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.exe
+E:\Sara Grbic\Zesium Mobile\Praksa\Aplikacije\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.WindowsApp.exe.config
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.exe
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.csprojResolveAssemblyReference.cache
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.AddDepartmentForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.CreateAdminForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.GenericForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.EditEmployeeForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.PromoteEmployeeForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.CreateAccountForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.EmployeeForms.EditTaskForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.LoginForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.MainForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.CreateProjectForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.CreateTask.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.EditProjectForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.Properties.Resources.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.csproj.GenerateResource.Cache
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.WindowsApp.exe
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.WindowsApp.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\EntityFramework.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.BussinesLaye.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.DAL.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.Models.dll
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.BussinesLaye.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.DAL.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.Models.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\EntityFramework.xml
+C:\Users\Masina\Desktop\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.csprojResolveAssemblyReference.cache
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.AddDepartmentForm.resources
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.CreateAdminForm.resources
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.GenericForm.resources
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.EditEmployeeForm.resources
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.PromoteEmployeeForm.resources
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.CreateAccountForm.resources
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.EmployeeForms.EditTaskForm.resources
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.LoginForm.resources
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.MainForm.resources
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.CreateProjectForm.resources
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.CreateTask.resources
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.EditProjectForm.resources
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.Properties.Resources.resources
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.csproj.GenerateResource.Cache
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.exe
+C:\Users\vladimir.milanovic_2\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\bin\Debug\Zesium.Project.CompanySystem.WindowsApp.exe.config
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.exe
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.pdb
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.csprojResolveAssemblyReference.cache
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.AddDepartmentForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.CreateAdminForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.GenericForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.EditEmployeeForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.AdminForms.PromoteEmployeeForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.CreateAccountForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.EmployeeForms.EditTaskForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.LoginForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.MainForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.CreateProjectForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.CreateTask.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.ManagerForms.EditProjectForm.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.Properties.Resources.resources
+C:\Users\Masina\Desktop\Sara-CompanySystem\Sara-CompanySystem\Zesium.Project.CompanySystem\Zesium.Project.CompanySystem.WindowsApp\obj\Debug\Zesium.Project.CompanySystem.WindowsApp.csproj.GenerateResource.Cache

@@ -1,0 +1,46 @@
+﻿@model WebUi.Models.DepartmentEmployeesViewModel
+@using WebUi.Models
+
+@{
+    ViewBag.Title = "GetEmployeesForDepartment";
+}
+
+<h2>GetEmployeesForDepartment</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("First Name")
+        </th>
+        <th>
+            @Html.DisplayName("Last Name")
+        </th>
+        <th>
+            @Html.DisplayName("Role Name")
+        </th>
+        <th>
+            @Html.DisplayName("Action")
+        </th>
+
+    </tr>
+    @foreach (var employee in Model.Employees)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => employee.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => employee.LastName)
+            </td>
+            <th>
+                @Html.DisplayFor(modelItem => employee.UserTypeName)
+            </th>
+            <td>
+                @if (employee.UserTypeName == UserTypeNames.EmployeeType)
+                {
+                    @Html.ActionLink("Promote Employee", "PromoteEmployee", new { departmantId = Model.DepartmentId, userId = employee.Id, userFullName = employee.FullName }, null)
+                }
+            </td>
+        </tr>
+    }
+</table>

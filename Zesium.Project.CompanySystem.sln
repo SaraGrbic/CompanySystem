@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zesium.Project.CompanySystem.WindowsApp", "Zesium.Project.CompanySystem.WindowsApp\Zesium.Project.CompanySystem.WindowsApp.csproj", "{7AEDC899-F4C3-4713-A36C-0E5C62573879}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zesium.Project.CompanySystem.Models", "Zesium.Project.CompanySystem.Models\Zesium.Project.CompanySystem.Models.csproj", "{F77C60CF-B62D-497C-A04F-B5EE14FE7D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zesium.Project.CompanySystem.DAL", "Zesium.Project.CompanySystem.DAL\Zesium.Project.CompanySystem.DAL.csproj", "{621CD13F-7A94-4699-BC81-6521997CE025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{1976E595-439D-4269-B44B-C23A33E30986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zesium.Project.CompanySystem.BussinesLaye", "Zesium.Project.CompanySystem.BussinesLaye\Zesium.Project.CompanySystem.BussinesLaye.csproj", "{C17FBC0A-3345-480E-8435-F38E19F5554A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUi", "WebUi\WebUi.csproj", "{8C818BE1-C613-4F79-A45E-A80B80CFAE3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{F77C60CF-B62D-497C-A04F-B5EE14FE7D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F77C60CF-B62D-497C-A04F-B5EE14FE7D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F77C60CF-B62D-497C-A04F-B5EE14FE7D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621CD13F-7A94-4699-BC81-6521997CE025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621CD13F-7A94-4699-BC81-6521997CE025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621CD13F-7A94-4699-BC81-6521997CE025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621CD13F-7A94-4699-BC81-6521997CE025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1976E595-439D-4269-B44B-C23A33E30986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1976E595-439D-4269-B44B-C23A33E30986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1976E595-439D-4269-B44B-C23A33E30986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1976E595-439D-4269-B44B-C23A33E30986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17FBC0A-3345-480E-8435-F38E19F5554A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17FBC0A-3345-480E-8435-F38E19F5554A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17FBC0A-3345-480E-8435-F38E19F5554A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17FBC0A-3345-480E-8435-F38E19F5554A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C818BE1-C613-4F79-A45E-A80B80CFAE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C818BE1-C613-4F79-A45E-A80B80CFAE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C818BE1-C613-4F79-A45E-A80B80CFAE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C818BE1-C613-4F79-A45E-A80B80CFAE3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,11 +4,14 @@ using System.Drawing;
 using System.Windows.Forms;
 using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.WindowsApp.Model;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 {
     public class EmployeesForm : GenericForm<User>
     {
+        private AccountService accountService;
+        private CompanySystemService companyService;
         private static List<Column> columns = new List<Column>
         {
             new Column() {PropertyName="Id", Title="ID", PropertyType=typeof(string) },
@@ -23,7 +26,9 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         #region Constructors
         public EmployeesForm(): base(columns, false, true, false, true, false)
         {
-            FillTable(HelperClass.GetAllUsers());
+            accountService = new AccountService();
+            companyService = new CompanySystemService();
+            FillTable(accountService.GetAllUsers());
 
             this.Text = "Employees";
 
@@ -33,7 +38,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             cBoxDepartments.DropDownStyle = ComboBoxStyle.DropDownList;
 
             var listOfDepartmentNames = new List<string>();
-            foreach (var department in HelperClass.GetAllDepartments())
+            foreach (var department in companyService.GetAllDepartments())
             {
                 if (department.IsDepartmentActive)
                 {

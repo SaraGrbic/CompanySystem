@@ -1,0 +1,60 @@
+﻿@model WebUi.Models.DepartmentModel
+
+@{
+    ViewBag.Title = "GetAllDepartments";
+}
+
+<h2>Departments</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateNewDepartmantView")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Name")
+        </th>
+        <th>
+            @Html.DisplayName("Description")
+        </th>
+        <th>
+            @Html.DisplayName("ManagerId")
+        </th>
+        <th>
+            @Html.DisplayName("Is department active")
+        </th>
+        <th>
+            Employees
+        </th>
+        <th>
+            Actions
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model.Departments) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ManagerId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem=>item.IsDepartmentActive)
+        </td>
+        <td>
+            @Html.ActionLink("Employees", "GetEmployeesForDepartment", "DepartmentEmployees", new { departmentId=item.Id}, null)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditDepartment", new {  id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new {  id=item.Id}) |
+            @Html.ActionLink("Delete", "Delete", new {  id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

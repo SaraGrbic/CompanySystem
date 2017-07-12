@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.Models.Services;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 {
@@ -24,6 +25,9 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         #region Properties
         public Department SelectedDepartment { get; set; }
         #endregion
+        #region Privates
+        private CompanySystemService companyService;
+        #endregion
 
         #region Actions
         private void cancel_btn_Click(object sender, EventArgs e)
@@ -31,30 +35,30 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             CloseDialog();
         }
 
-        private void createDepartment_btn_Click(object sender, EventArgs e)
-        {
-            if (InputServices.TextBoxError(depName_txtbx, errorProvider1)
-                    && InputServices.RichTextBoxError(depDescription_txtbx, errorProvider1))
-            {
-                if (SelectedDepartment == null)
-                {
-                    HelperClass.AddNewDepartment(depName_txtbx.Text, depDescription_txtbx.Text);
-                    CloseDialog();
-                }
-                else
-                {
-                    ChangeSelectedDepartment(SelectedDepartment);
-                    CloseDialog();
-                }
-            }   
-        }
+        //private void createDepartment_btn_Click(object sender, EventArgs e)
+        //{
+        //    if (InputServices.TextBoxError(depName_txtbx, errorProvider1)
+        //            && InputServices.RichTextBoxError(depDescription_txtbx, errorProvider1))
+        //    {
+        //        if (SelectedDepartment == null)
+        //        {
+        //            companyService.AddNewDepartment(depName_txtbx.Text, depDescription_txtbx.Text);
+        //            CloseDialog();
+        //        }
+        //        else
+        //        {
+        //            ChangeSelectedDepartment(SelectedDepartment);
+        //            CloseDialog();
+        //        }
+        //    }   
+        //}
         #endregion
 
         #region Methods
-        private void ChangeSelectedDepartment(Department department)
-        {
-            HelperClass.EditDepartment(department.DepartmentId, depName_txtbx.Text, depDescription_txtbx.Text);
-        }
+        //private void ChangeSelectedDepartment(Department department)
+        //{
+        //    companyService.EditDepartment(department.Id, depName_txtbx.Text, depDescription_txtbx.Text);
+        //}
 
         private void ShowSelectedDepartment(Department department)
         {

@@ -3,11 +3,14 @@ using System.Windows.Forms;
 using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.Models.Services;
 using Zesium.Project.CompanySystem.WindowsApp;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 {
     public partial class EditEmployeeForm : Form
     {
+        private CompanySystemService companyService = new CompanySystemService();
+        private AccountService accountService = new AccountService();
         #region Constructors
         public EditEmployeeForm(User user)
         {
@@ -47,7 +50,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         #region Methods
         private void ChangeSelectedUser(User user)
         {
-            HelperClass.EditUser(user.Id, name_txtbx.Text, lastName_txtbx.Text, dayOfBirth_pckr.Value, GenderChoice(), cmbbxDepartment.SelectedItem as Department);
+            accountService.EditUser(user.Id, name_txtbx.Text, lastName_txtbx.Text, dayOfBirth_pckr.Value, GenderChoice(), cmbbxDepartment.SelectedItem as Department);
         }
 
         private void ShowSelectedUser(User user)
@@ -66,13 +69,13 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         
         private void SetDepartments(User user)
         {
-            foreach (Department department in HelperClass.GetAllDepartments())
+            foreach (Department department in companyService.GetAllDepartments())
             {
                 if (department.IsDepartmentActive == true)
                 {
                     cmbbxDepartment.Items.Add(department);
 
-                    if (user.Department.DepartmentId == department.DepartmentId)
+                    if (user.Department.Id == department.Id)
                     {
                         cmbbxDepartment.SelectedItem = department;
                     }

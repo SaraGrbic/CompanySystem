@@ -2,11 +2,13 @@
 using System.Windows.Forms;
 using Zesium.Project.CompanySystem.Models.Services;
 using Zesium.Project.CompanySystem.Models;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp
 {
     public partial class LoginForm : Form
     {
+        private AccountService accService = new AccountService();
         public LoginForm()
         {
             InitializeComponent();
@@ -23,7 +25,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            if (HelperClass.Login(username_txtbx.Text, password_txtbx.Text))
+            if (accService.Login(username_txtbx.Text, password_txtbx.Text))
             {
                 Hide();
                 var mainForm = new MainForm();
@@ -58,5 +60,10 @@ namespace Zesium.Project.CompanySystem.WindowsApp
             }
         }
         #endregion
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

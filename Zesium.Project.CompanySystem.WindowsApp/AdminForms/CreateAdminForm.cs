@@ -9,11 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Zesium.Project.CompanySystem.Models;
 using Zesium.Project.CompanySystem.Models.Services;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 {
     public partial class CreateAdminForm : Form
     {
+        private AccountService accountService = new AccountService();
         #region Constructors
         public CreateAdminForm()
         {
@@ -27,7 +29,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             if (InputServices.TextBoxError(txtbxUsername, errorProvider1) && InputServices.TextBoxError(txtbxPassword, errorProvider1)
                 && InputServices.TextBoxError(txtbxName, errorProvider1) && InputServices.TextBoxError(txtbxLastname, errorProvider1))
             {
-                HelperClass.CreateAdmin(txtbxUsername.Text, txtbxPassword.Text, txtbxName.Text, txtbxLastname.Text, pckrDateOfBirth.Value, GenderChoice());
+                accountService.CreateAdmin(txtbxUsername.Text, txtbxPassword.Text, txtbxName.Text, txtbxLastname.Text, pckrDateOfBirth.Value, GenderChoice());
                 CloseDialog();
             }
         }
@@ -63,5 +65,10 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
             }
         }
         #endregion
+
+        private void CreateAdminForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

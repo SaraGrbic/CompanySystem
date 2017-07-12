@@ -6,11 +6,16 @@ using Zesium.Project.CompanySystem.Models.Services;
 using Zesium.Project.CompanySystem.WindowsApp.Model;
 using ProjectClass = Zesium.Project.CompanySystem.Models.Project;
 using TaskClass = Zesium.Project.CompanySystem.Models.Task;
+using Zesium.Project.CompanySystem.BussinesLaye;
 
 namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 {
     public class DepartmentsForm : GenericForm<Department>
     {
+        private CompanySystemService compService = new CompanySystemService();
+        private ProjectService projectService = new ProjectService();
+        private EmployeeService employeeService = new EmployeeService();
+        private TaskService taskService = new TaskService();
         private static List<Column> columns = new List<Column>
         {
             new Column() {PropertyName="DepartmentId", Title="ID", PropertyType=typeof(string) },
@@ -22,7 +27,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         #region Constructors
         public DepartmentsForm(): base(columns, true, true, true, false, false)
         {
-            FillTable(HelperClass.GetAllDepartments());
+            FillTable(compService.GetAllDepartments());
 
             this.Text = "Departments";
         }
@@ -38,7 +43,7 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
         public override void HandleEditEvent(object selectedItem)
         {
             var editDepartmentForm = new AddDepartmentForm(((Department)selectedItem));
-            if (((Department)selectedItem).DepartmentId != 1 && ((Department)selectedItem).IsDepartmentActive == true)
+            if (((Department)selectedItem).Id != 1 && ((Department)selectedItem).IsDepartmentActive == true)
             {
                 editDepartmentForm.ShowDialog();
             }
@@ -51,12 +56,12 @@ namespace Zesium.Project.CompanySystem.WindowsApp.AdminForms
 
         public override void HandleRemoveEvent(object selectedItem)
         {
-            if(((Department)selectedItem).DepartmentId != 1 && ((Department)selectedItem).IsDepartmentActive == true)
+            if(((Department)selectedItem).Id != 1 && ((Department)selectedItem).IsDepartmentActive == true)
             {
-                HelperClass.DepartmentCancelation(((Department)selectedItem).DepartmentId);
-                HelperClass.UpdateUsersWhenDepartmentIsCanceled(((Department)selectedItem).DepartmentId);
-                HelperClass.UpdateProjectsWhenDepartmentIsCanceled(((Department)selectedItem).DepartmentId);
-                HelperClass.UpdateTasksWhenDepartmentIsCanceled(((Department)selectedItem).DepartmentId);
+                compService.DepartmentCancelation(((Department)selectedItem).Id);
+                employeeService.UpdateUsersWhenDepartmentIsCanceled(((Department)selectedItem).Id);
+                projectService.UpdateProjectsWhenDepartmentIsCanceled(((Department)selectedItem).Id);
+                taskService.UpdateTasksWhenDepartmentIsCanceled(((Department)selectedItem).Id);
                 CloseDialog();
             }
             else

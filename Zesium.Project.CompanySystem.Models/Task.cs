@@ -1,153 +1,44 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.SqlClient;
 
 namespace Zesium.Project.CompanySystem.Models
 {
-    [Serializable]
-    public class Task
+   
+    public class Task:Entity
     {
-        #region Fields
-        private string _taskName;
-        private TaskState _taskState;
-        private DateTime _taskStartTime;
-        private DateTime _taskEndTime;
-        private int _estimatedWorkingTime;
-        private int _remainingWorkingTime;
-        private string _taskDescription;
-        private string _taskComment;
-        private int _taskId;
-        private string _tasksEmployee;
-        private string _tasksProject;
-        #endregion
+       
+        public string TaskName { get; set; }
 
-        #region Constructors
-        public Task()
-        {
+        public TaskState TaskState { get; set; }
 
-        }
-        #endregion
+        public DateTime TaskStartTime { get; set; }
 
-        #region Properties
-        public string TaskName
-        {
-            get { return _taskName; }
-            set { _taskName = value; }
-        }
+        public DateTime TaskEndTime { get; set; }
 
-        public TaskState TaskState
-        {
-            get { return _taskState; }
-            set { _taskState = value; }
-        }
+        public int EstimatedWorkingTime { get; set; }
 
-        public DateTime TaskStartTime
-        {
-            get { return _taskStartTime; }
-            set { _taskStartTime = value; }
-        }
+        public int RemainingWorkingTime { get; set; }
 
-        public DateTime TaskEndTime
-        {
-            get
-            {
-                return _taskEndTime;
-            }
-            set
-            {
-                _taskEndTime = value;
-            }
-        }
+        public string TaskDescription { get; set; }
 
-        public int EstimatedWorkingTime
-        {
-            get
-            {
-                return _estimatedWorkingTime;
-            }
-            set
-            {
-                _estimatedWorkingTime = value;
-            }
-        }
+        public string TaskComment { get; set; }  
 
-        public int RemainingWorkingTime
-        {
-            get
-            {
-                return _remainingWorkingTime;
-            }
-            set
-            {
-                _remainingWorkingTime = value;
-            }
-        }
+        //public string TaskEmployee { get; set; }
 
-        public string TaskDescription
-        {
-            get { return _taskDescription; }
-            set { _taskDescription = value; }
-        }
+       
+        public virtual User Employee { get; set; }
+        public virtual User AssignedEmployee { get; set; }
 
-        public string TaskComment
-        {
-            get { return _taskComment; }
-            set { _taskComment = value; }
-        }
+        public int EmployeeId { get; set; }
 
-        public int TaskId
-        {
-            get { return _taskId; }
-            set { _taskId = value; }
-        }
+        public virtual Project TasksProject { get; set; }
 
-        public string TasksEmployee
-        {
-            get { return _tasksEmployee; }
-            set { _tasksEmployee = value; }
-        }
+        public int ProjectId { get; set; }
 
-        public string TasksProject
-        {
-            get
-            {
-                return _tasksProject;
-            }
-            set
-            {
-                _tasksProject = value;
-            }
-        }
-        #endregion
 
-        #region Methods
-        public void CreateTask(SqlDataReader reader)
-        {
-            TaskId = Convert.ToInt32(reader["TaskId"].ToString());
-            TaskName = reader["TaskName"].ToString();
-            TaskStartTime = Convert.ToDateTime(reader["TaskStartTime"].ToString());
-            TaskEndTime = Convert.ToDateTime(reader["TaskEndTime"].ToString());
-            EstimatedWorkingTime = Convert.ToInt32(reader["EstimatedWorkingTime"].ToString());
-            RemainingWorkingTime = Convert.ToInt32(reader["RemainingWorkingTime"].ToString());
-            TaskDescription = reader["TaskDescription"].ToString();
-            TaskComment = reader["TaskComment"].ToString();
-            switch (Convert.ToInt32(reader["TaskStateId"].ToString()))
-            {
-                case 1:
-                    TaskState = TaskState.To_Do;
-                    break;
-                case 2:
-                    TaskState = TaskState.In_Progres;
-                    break;
-                case 3:
-                    TaskState = TaskState.Done;
-                    break;
-                case 8:
-                    TaskState = TaskState.Canceled;
-                    break;
-            }
-            TasksEmployee = reader["EmployeeName"].ToString() + " " + reader["EmployeeLastName"].ToString();
-            TasksProject = reader["ProjectName"].ToString();
-        }
-        #endregion
+
+
+
     }
 }

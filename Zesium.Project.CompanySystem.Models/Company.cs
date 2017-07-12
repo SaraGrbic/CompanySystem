@@ -5,7 +5,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Zesium.Project.CompanySystem.Models
 {
-    [Serializable]
+   
     public sealed class Company
     {
 

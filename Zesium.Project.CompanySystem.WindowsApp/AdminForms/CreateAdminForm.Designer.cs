@@ -205,6 +205,7 @@
             this.Name = "CreateAdminForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create admin account";
+            this.Load += new System.EventHandler(this.CreateAdminForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
